@@ -9,6 +9,7 @@ const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 600,
 const errs = []; p.on('pageerror', e => errs.push(String(e))); p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
 await p.goto('file://' + here + 'woman-walk.html?render');
 await p.evaluate(() => window.readyP);
+if (process.env.DBG) await p.evaluate(() => { window.DBG = 1; });
 if (process.env.CAM) await p.evaluate(c => { window.CAM_OVR = JSON.parse(c); }, process.env.CAM);
 for (const t of ts) {
   const url = await p.evaluate(t => { window.SCENE.renderAt(+t); return window.SCENE.canvas.toDataURL('image/png'); }, t);

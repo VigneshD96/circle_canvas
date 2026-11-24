@@ -322,8 +322,8 @@ const HS = 0.6;
 const HEAD = {
   face: [[-30, -47], [10, -60], [43, -46], [50, -20], [50, 0], [48, 18], [43, 34], [33, 48], [20, 58], [8, 61], [-6, 57], [-22, 46], [-35, 33], [-42, 12], [-41, -18]],
   ear: [[-41, 7], [-49, 1], [-59, 3], [-66, 13], [-65, 27], [-57, 37], [-47, 38], [-41, 31]],
-  shell: [[47, -30], [38, -48], [22, -57], [6, -60], [-10, -56], [-24, -47], [-34, -33], [-40, -16], [-47, -5], [-58, -8], [-70, -2], [-77, 8], [-82, 22], [-90, 22], [-95, 6], [-94, -18], [-84, -46], [-60, -68], [-30, -79], [0, -81], [26, -75], [46, -62], [55, -46], [54, -34]],
-  bun: [[-92, -50, 30], [-110, -26, 19], [-74, -74, 20], [-112, -62, 16]],
+  shell: [[47, -30], [38, -48], [22, -57], [6, -60], [-10, -56], [-24, -47], [-34, -33], [-40, -18], [-46, -6], [-58, -4], [-74, -4], [-88, -14], [-92, -32], [-86, -52], [-64, -70], [-32, -80], [0, -82], [26, -76], [46, -62], [55, -46], [54, -34]],
+  bun: [[-108, -50, 22, 3], [-114, -76, 14, 5], [-88, -70, 30, 4]],
 };
 const FR = rng(77);
 const FRECKLES = Array.from({ length: 26 }, () => [FR(), FR(), 0.6 + FR() * 0.6]);
@@ -337,41 +337,6 @@ function headM(pz, fc) {
 }
 function sway(pz, t, lag) { return 0.06 * Math.sin(4 * Math.PI * pz.p - lag) + 0.025 * Math.sin(TAU * t / 2.3 + lag); }
 
-function drawHead(pz, t) {
-  const fc = face(t), hm = headM(pz, fc), sw = sway(pz, t, 0.8);
-  // behind the face: nape mass, far-side curtain, bun
-  for (const L of [[-66, -8, -94, 14, -88 + sw * 30, 40, 18], [49, -36, 66, 4, 57 + sw * 40, 52, 9]]) {
-    part(T(leaf(...L), hm), [C.hairSh, C.hairLit, C.hairSh, C.hairGlow], { shade: 3, rim: 2, lw: 0.6, hl: 5, hlA: 0.5, line: '#1c0b06', lineLit: '#b8703f', soft: 1.6, detail: g => {
-      g.setTransform(hm); taper(g, L[0], L[1], L[2], L[3], L[4], L[5], 3, 0.5, 'rgba(110,62,40,0.5)'); taper(g, L[0] + 3, L[1], L[2] + 4, L[3], L[4] + 2, L[5], 1.4, 0.3, 'rgba(14,5,3,0.5)');
-    } });
-  }
-  drawBun(hm, sw);
-  part(T(shape(HEAD.face), hm), SKIN, { shade: 7, rim: 2.2, lw: 1.7, hl: 10, soft: 3.2, detail: g => faceDetail(g, hm, fc) });
-  drawFeatures(hm, fc);
-  drawShell(hm);
-
-  part(T(shape(HEAD.ear), hm), SKIN, { shade: 4, rim: 2, lw: 1.5, hl: 4, detail: g => {
-    g.setTransform(hm); g.strokeStyle = 'rgba(160,62,26,0.85)'; g.lineWidth = 1.8; g.lineCap = 'round';
-    g.lineWidth = 1.4; g.beginPath(); g.moveTo(-46, 9); g.bezierCurveTo(-55, 6, -60, 16, -57, 24); g.bezierCurveTo(-54, 30, -49, 31, -47, 28); g.stroke();
-    g.beginPath(); g.moveTo(-50, 16); g.quadraticCurveTo(-53, 21, -49, 23); g.stroke();
-    g.fillStyle = 'rgba(255,170,110,0.55)'; g.beginPath(); g.ellipse(-62, 19, 2.2, 8, 0.1, 0, TAU); g.fill();
-  } });
-  wisps(hm, [
-    [-35, -34, -50, -8, -34 + sw * 40, 16, -42 + sw * 70, 42, 3.2],
-    [-31, -40, -44, -4, -26 + sw * 40, 22, -33 + sw * 60, 50, 2.2],
-    [-38, -24, -50, 2, -46 + sw * 40, 22, -50 + sw * 60, 38, 1.8],
-    [-27, -44, -38, -14, -22 + sw * 30, 8, -24 + sw * 40, 30, 1.4],
-    [51, -36, 62, -6, 52 + sw * 40, 20, 58 + sw * 60, 50, 2.8],
-    [55, -30, 66, 0, 60 + sw * 40, 26, 64 + sw * 50, 44, 1.6],
-    [48, -44, 60, -20, 56 + sw * 40, 6, 62 + sw * 50, 30, 2],
-    [53, -40, 66, -14, 64 + sw * 30, 12, 70 + sw * 40, 34, 1.2],
-    [44, -50, 58, -30, 54 + sw * 30, -6, 58 + sw * 40, 16, 1.6],
-    [12, -60, 22, -54, 30 + sw * 20, -44, 34 + sw * 30, -30, 1.4],
-    [20, -58, 32, -52, 40 + sw * 20, -44, 44 + sw * 30, -34, 1.1],
-  ]);
-  edgeStrands(hm, pz, t);
-  flyaways(hm, pz, t);
-}
 function faceDetail(g, hm, fc) {
   g.setTransform(hm);
   let gr = g.createLinearGradient(0, 30, 0, 70); gr.addColorStop(0, 'rgba(255,170,110,0)'); gr.addColorStop(1, 'rgba(255,170,110,0.35)'); g.fillStyle = gr; g.fillRect(-50, 30, 110, 40);
@@ -450,69 +415,104 @@ function mouth(g, fc) {
   g.lineWidth = 1.4; g.beginPath(); g.moveTo(L[0] - 1.5, L[1] - 2.5); g.quadraticCurveTo(L[0] - 0.5, L[1] + 0.5, L[0] + 1.5, L[1] + 1.2); g.stroke();
   g.strokeStyle = 'rgba(150,60,30,0.22)'; g.lineWidth = 1.2; g.beginPath(); g.moveTo(-3, dip + 9); g.quadraticCurveTo(8, dip + 11, 18, dip + 8.5); g.stroke();
 }
-function drawBun(hm, sw) {
-  const bm = hm.multiply(mat(-90, -50, sw * 0.4)).translateSelf(90, 50);
-  const P = new Path2D(), r = rng(55);
-  for (const [cx, cy, rr] of HEAD.bun) {
-    const k = [1, 2, 3, 5].map(n => ({ n, a: r() * 0.24 / n, p: r() * TAU })), pts = [];
-    for (let i = 0; i < 22; i++) { const a = TAU * i / 22; let q = rr; for (const h of k) q += rr * h.a * Math.sin(h.n * a + h.p); pts.push([cx + q * Math.cos(a), cy + q * Math.sin(a) * 0.92]); }
-    cr(P, pts, true);
-  }
-  part(T(P, bm), [C.hair, C.hairLit, C.hairSh, C.hairGlow], { shade: 9, rim: 2.8, lw: 1.1, hl: 9, line: '#24100a', lineLit: '#d98a52', detail: g => {
-    g.setTransform(bm); g.lineCap = 'round';
-    const q = rng(91);
-    for (const [cx, cy, rr] of HEAD.bun) {
-      for (let i = 0; i < 9; i++) {
-        const k = 0.3 + q() * 0.65, a0 = q() * TAU, span = 1.4 + q() * 2.2, dark = i % 2 === 0;
-        g.strokeStyle = dark ? 'rgba(14,5,3,0.45)' : 'rgba(150,92,60,0.45)'; g.lineWidth = dark ? 1.1 : 0.9;
-        g.beginPath(); g.ellipse(cx + (q() - 0.5) * 4, cy + (q() - 0.5) * 4, rr * k, rr * k * 0.85, q(), a0, a0 + span); g.stroke();
-      }
-      g.save(); g.filter = `blur(${2.2 * ZS}px)`; g.strokeStyle = 'rgba(160,98,64,0.5)'; g.lineWidth = rr * 0.22; g.beginPath(); g.arc(cx - 2, cy - 2, rr * 0.66, -1.9, -0.4); g.stroke(); g.restore();
-    }
+function drawHead(pz, t) {
+  const fc = face(t), hm = headM(pz, fc), sw = sway(pz, t, 0.8);
+  drawBackMass(hm, sw);
+  drawBun(hm, pz, t, sw);
+  part(T(shape(HEAD.face), hm), SKIN, { shade: 7, rim: 2.2, lw: 1.7, hl: 10, soft: 3.2, detail: g => faceDetail(g, hm, fc) });
+  drawFeatures(hm, fc);
+  drawEar(hm);
+  drawShell(hm, pz, t);
+  drawSwoop(hm, sw);
+  // long loose strands: temple (in front of the ear), far side, nape
+  wisps(hm, [
+    [-38, -22, -44, 6, -38 + sw * 40, 30, -44 + sw * 70, 58, 2.2],
+    [-34, -28, -40, 4, -32 + sw * 40, 34, -36 + sw * 60, 62, 1.6],
+    [-44, -12, -52, 10, -50 + sw * 40, 30, -56 + sw * 60, 50, 1.1],
+    [50, -36, 62, -6, 52 + sw * 40, 20, 58 + sw * 60, 50, 2.4],
+    [54, -30, 66, 0, 60 + sw * 40, 26, 64 + sw * 50, 44, 1.4],
+    [-70, 40, -78, 58, -70 + sw * 50, 72, -76 + sw * 80, 92, 2],
+    [-62, 44, -66, 60, -58 + sw * 40, 74, -62 + sw * 60, 88, 1.4],
+  ]);
+  bunLoops(hm, pz, t, sw);
+}
+// dark hair behind the head: the ear sits on this
+function drawBackMass(hm, sw) {
+  const P = shape([[-40, -24], [-46, -8], [-52, 12], [-56, 30], [-64, 40], [-78 + sw * 8, 42], [-90, 32], [-98, 12], [-100, -10], [-94, -32], [-76, -40], [-56, -36]]);
+  part(T(P, hm), ['#1e0d08', '#4a2619', '#140805', C.hairGlow], { shade: 4, rim: 2.2, lw: 0.6, hl: 8, hlA: 0.45, line: '#140704', lineLit: '#c27a46', soft: 2, detail: g => {
+    g.setTransform(hm);
+    taper(g, -60, -30, -84, 0, -80, 36, 6, 2, 'rgba(84,44,28,0.5)', 1.2);
+    taper(g, -50, -26, -66, 6, -66, 36, 4, 1, 'rgba(84,44,28,0.4)', 1);
   } });
-  // looping clumps wrapped around the bun
+}
+function lobe(cx, cy, r, seed) {
+  const q = rng(seed), k = [1, 2, 3].map(n => ({ n, a: q() * 0.1 / n, p: q() * TAU })), pts = [];
+  for (let i = 0; i < 20; i++) { const a = TAU * i / 20; let rr = r; for (const h of k) rr += r * h.a * Math.sin(h.n * a + h.p); pts.push([cx + rr * Math.cos(a), cy + rr * Math.sin(a) * 0.9]); }
+  return pts;
+}
+function drawBun(hm, pz, t, sw) {
+  const bm = hm.multiply(mat(-88, -60, sw * 0.35)).translateSelf(88, 60);
+  // back lobe first, then the big top lobe in front of it
+  for (const [cx, cy, r, seed] of HEAD.bun) {
+    part(T(shape(lobe(cx, cy, r, seed)), bm), ['#1f0e09', '#47271a', '#110604', '#e2a072'], { shade: 6, rim: 2.6, lw: 0.5, hl: 9, hlA: 0.4, line: '#160805', lineLit: '#d58c56', soft: 2, detail: g => {
+      g.setTransform(bm);
+      // broad soft sheen crescent on the upper side, crisp gloss arc inside it
+      g.save(); g.filter = `blur(${2.4 * ZS}px)`; g.strokeStyle = 'rgba(118,68,44,0.75)'; g.lineWidth = r * 0.42; g.lineCap = 'round';
+      g.beginPath(); g.ellipse(cx, cy, r * 0.62, r * 0.55, 0, -2.6, -0.5); g.stroke(); g.restore();
+      g.strokeStyle = 'rgba(214,150,104,0.75)'; g.lineWidth = 1.6; g.lineCap = 'round'; g.beginPath(); g.ellipse(cx, cy, r * 0.62, r * 0.55, 0, -2.2, -1.1); g.stroke();
+      // twist: dark crevice spiralling in
+      g.save(); g.filter = `blur(${1.2 * ZS}px)`; g.strokeStyle = 'rgba(10,3,2,0.55)'; g.lineWidth = 2.4; g.beginPath(); g.ellipse(cx + r * 0.1, cy + r * 0.15, r * 0.55, r * 0.45, 0.4, 0.3, 2.2); g.stroke(); g.restore();
+      for (let i = 0; i < 4; i++) taper(g, cx - r * 0.7, cy + r * (0.1 * i - 0.2), cx - r * 0.1, cy - r * (0.9 - 0.15 * i), cx + r * 0.7, cy - r * (0.1 * i), 0.3, 0.8, i % 2 ? 'rgba(10,3,2,0.35)' : 'rgba(170,108,72,0.35)');
+    } });
+  }
+}
+function bunLoops(hm, pz, t, sw) {   // a few loose loops and strands escaping the bun
+  const bm = hm.multiply(mat(-88, -60, sw * 0.35)).translateSelf(88, 60);
   const g = bx; g.save(); g.setTransform(bm);
-  const loops = [[-92, -50, 24, -2.6, -0.4, 6], [-92, -50, 15, 0.6, 2.9, 5], [-74, -74, 15, -3.0, -0.6, 4.5], [-110, -28, 14, 1.8, 4.4, 4], [-104, -62, 13, -2.2, 0.2, 4], [-92, -50, 28, 2.2, 3.6, 3]];
-  for (const [cx, cy, r0, a0, a1, w] of loops) {
-    const am = (a0 + a1) / 2, k = 1 / Math.cos((a1 - a0) / 2), p0 = [cx + Math.cos(a0) * r0, cy + Math.sin(a0) * r0], pc = [cx + Math.cos(am) * r0 * k, cy + Math.sin(am) * r0 * k], p1 = [cx + Math.cos(a1) * r0, cy + Math.sin(a1) * r0];
-    taper(g, ...p0, ...pc, ...p1, 0.5, w, 'rgba(104,58,38,0.6)', 0.6);
-    taper(g, p0[0] + 1, p0[1] + 1.5, pc[0] + 1.5, pc[1] + 2, p1[0] + 1, p1[1] + 1.5, 0.3, 1.1, 'rgba(10,3,2,0.6)');
-    taper(g, p0[0] - 0.5, p0[1] - 1, pc[0] - 1, pc[1] - 1.5, p1[0], p1[1] - 1, 0.2, 0.8, 'rgba(236,178,128,0.55)');
-  }
+  const L = [[-96, -98, -70, -120, -52, -96, 1.5], [-104, -88, -128, -96, -126, -70, 1.4], [-60, -84, -44, -100, -46, -80, 1.1], [-118, -52, -134, -40, -124, -24, 1.3], [-82, -102, -84, -124, -66, -118, 1]];
+  L.forEach(([x0, y0, cx, cy, x1, y1, w], i) => { const d = 0.15 * Math.sin(4 * Math.PI * pz.p + i); taper(g, x0, y0, cx + d * 20, cy, x1 + d * 10, y1, w, 0.2, 'rgba(36,16,10,0.9)'); taper(g, lerp(x0, cx, 0.3), lerp(y0, cy, 0.3), cx + d * 20, cy, x1 + d * 10, y1, w * 0.4, 0.1, 'rgba(234,170,120,0.55)'); });
   g.restore();
 }
-function drawShell(hm) {
-  part(T(shape(HEAD.shell), hm), ['#2c150f', C.hairLit, C.hairSh, C.hairGlow], { shade: 7, rim: 2.4, lw: 0.7, hl: 8, hlA: 0.28, line: '#22100a', lineLit: '#d98a52', detail: g => {
-    g.setTransform(hm); g.lineCap = 'round';
-    let gr = g.createRadialGradient(-6, -64, 0, -6, -64, 60); gr.addColorStop(0, 'rgba(112,62,40,0.5)'); gr.addColorStop(1, 'rgba(112,62,40,0)'); g.fillStyle = gr; g.fillRect(-90, -130, 170, 130);
-    gr = g.createLinearGradient(0, -40, -30, -60); gr.addColorStop(0, 'rgba(10,3,2,0.5)'); gr.addColorStop(1, 'rgba(10,3,2,0)'); g.fillStyle = gr; g.fillRect(-60, -70, 120, 50);   // darker at the hairline
-    const bunC = [-92, -52], q = rng(33), sl = HEAD.shell;
-    for (let i = 0; i < 46; i++) {   // strand clumps sweeping back to the bun
-      const u = q() * 8.6, j = Math.floor(u), f = u - j, a = sl[j], b = sl[j + 1];
-      const x = lerp(a[0], b[0], f), y = lerp(a[1], b[1], f) - 1;
-      const ex = bunC[0] + 10 + (q() - 0.5) * 24, ey = bunC[1] + (q() - 0.5) * 30;
-      const cx = (x + ex) / 2 + 14 + q() * 10, cy = Math.min(y, ey) - 16 - q() * 16;
-      const kind = q();
-      if (kind < 0.35) taper(g, x, y, cx, cy, ex, ey, 0.8, 5 + q() * 3, 'rgba(104,58,38,0.62)', 0.7);
-      else if (kind < 0.75) taper(g, x, y, cx, cy, ex, ey, 0.5, 1.4 + q(), 'rgba(10,3,2,0.65)');
-      else taper(g, x, y, cx, cy, ex, ey, 0.3, 0.9, 'rgba(214,150,104,0.45)');
-    }
-    g.save(); g.filter = `blur(${3.2 * ZS}px)`; g.strokeStyle = 'rgba(184,116,76,0.55)'; g.lineWidth = 9; g.beginPath(); g.moveTo(-74, -42); g.bezierCurveTo(-50, -70, 4, -78, 40, -58); g.stroke(); g.restore();
-    for (let i = 0; i < 7; i++) { const o = i * 2.6 - 8; taper(g, -66 + o, -46 - o * 0.3 + (i % 3) * 3, 0, -84 - o * 0.4 + (i % 2) * 4, 36 + o, -60 + o * 0.5, 0.2, 0.8, `rgba(238,182,134,${0.2 + (i % 3) * 0.12})`); }
+function drawEar(hm) {
+  // soft teardrop, no dark ink: a light peach rim against the dark hair behind it
+  const E = shape([[-45, 4], [-52, -1], [-61, 1], [-66, 10], [-66, 22], [-61, 33], [-54, 38], [-48, 35], [-45, 26], [-44, 14]]);
+  part(T(E, hm), ['#e48c55', '#f6b07a', '#b85d30', '#ffc89a'], { shade: 4, rim: 2.6, lw: 0, hl: 6, hlA: 0.6, soft: 2.2, detail: g => {
+    g.setTransform(hm);
+    let gr = g.createLinearGradient(-44, 0, -66, 0); gr.addColorStop(0, 'rgba(160,66,32,0.45)'); gr.addColorStop(0.5, 'rgba(160,66,32,0)'); g.fillStyle = gr; g.fillRect(-70, -4, 30, 46);
+    g.save(); g.filter = `blur(${0.5 * ZS}px)`; g.strokeStyle = 'rgba(150,58,26,0.9)'; g.lineWidth = 2.6; g.lineCap = 'round';
+    g.beginPath(); g.moveTo(-49, 12); g.quadraticCurveTo(-55, 3, -60, 9); g.quadraticCurveTo(-63, 16, -60, 24); g.stroke();
+    g.lineWidth = 1.4; g.beginPath(); g.moveTo(-52, 20); g.quadraticCurveTo(-55, 26, -51, 29); g.stroke();
+    g.restore();
+    g.fillStyle = 'rgba(255,190,140,0.22)'; g.beginPath(); g.ellipse(-62, 18, 1.6, 7, 0.15, 0, TAU); g.fill();
+    g.fillStyle = 'rgba(150,58,26,0.35)'; g.beginPath(); g.ellipse(-53, 18, 4, 7, 0.1, 0, TAU); g.fill();   // bowl of the ear
   } });
 }
-function edgeStrands(hm, pz, t) {
-  const g = bx; g.save(); g.setTransform(hm); const q = rng(404), sl = HEAD.shell;
-  for (let i = 0; i < 30; i++) {
-    const u = 16 + q() * 7.9, j = Math.floor(u) % sl.length, f = u - Math.floor(u), a = sl[j], b = sl[(j + 1) % sl.length];
-    const x = lerp(a[0], b[0], f), y = lerp(a[1], b[1], f);
-    const tx = b[0] - a[0], ty = b[1] - a[1], l = Math.hypot(tx, ty) || 1, nx = ty / l, ny = -tx / l;   // outward normal
-    const out = 0.5 + q() * 2.5, along = -(14 + q() * 18), wob = 0.15 * Math.sin(4 * Math.PI * pz.p + i);
-    const x1 = x + nx * out + tx / l * along, y1 = y + ny * out + ty / l * along;
-    const cx = (x + x1) / 2 + nx * (2 + q() * 3) + wob * 4, cy = (y + y1) / 2 + ny * (2 + q() * 3);
-    taper(g, x - nx * 2, y - ny * 2, cx, cy, x1, y1, 1.0, 0.15, q() < 0.6 ? 'rgba(42,19,12,0.85)' : 'rgba(226,160,112,0.6)');
-  }
-  g.restore();
+function drawShell(hm, pz, t) {
+  const SH = T(shape(HEAD.shell), hm);
+  // warm backlight halo just outside the top edge
+  bx.save(); bx.filter = `blur(${2.5 * ZS}px)`; bx.strokeStyle = 'rgba(244,176,118,0.55)'; bx.lineWidth = 3.5 * ZS; bx.stroke(SH); bx.restore();
+  part(SH, ['#1d0d08', '#3e2016', '#110604', '#e2a072'], { shade: 6, rim: 2.4, lw: 0.6, hl: 8, hlA: 0.32, line: '#160805', lineLit: '#d58c56', soft: 2, detail: g => {
+    g.setTransform(hm); g.lineCap = 'round';
+    // broad soft locks sweeping from the hairline back into the bun
+    const locks = [[42, -40, 32, -82, -70, -72, 22], [22, -56, 2, -88, -86, -58, 22], [2, -58, -28, -76, -92, -42, 20], [-18, -50, -48, -58, -94, -26, 17], [-34, -32, -58, -32, -92, -12, 13]];
+    locks.forEach(([x0, y0, cx, cy, x1, y1, w], i) => {
+      g.save(); g.filter = `blur(${1.6 * ZS}px)`; g.fillStyle = i % 2 ? 'rgba(62,31,20,0.5)' : 'rgba(50,25,16,0.55)'; g.fill(leaf(x0, y0, cx, cy, x1, y1, w));
+      g.filter = `blur(${1.2 * ZS}px)`; g.fillStyle = 'rgba(100,58,38,0.42)'; g.fill(leaf(x0, y0 - 1, cx, cy - 2, x1, y1 - 1, w * 0.4)); g.restore();
+      taper(g, x0 + 2, y0 + 2, cx + 4, cy + w * 0.4, x1, y1 + 4, 0.6, 1.4, 'rgba(10,3,2,0.55)');   // gap on the lower side
+    });
+    // glossy sheen across the crown
+    g.save(); g.filter = `blur(${3 * ZS}px)`; g.strokeStyle = 'rgba(160,100,66,0.5)'; g.lineWidth = 9; g.beginPath(); g.moveTo(-70, -48); g.bezierCurveTo(-46, -74, 6, -80, 40, -60); g.stroke(); g.restore();
+    for (let i = 0; i < 5; i++) { const o = i * 3 - 6; taper(g, -60 + o, -52 - o * 0.3 + (i % 2) * 3, -2, -82 + (i % 3) * 3, 34 + o, -62 + o * 0.4, 0.2, 0.9, `rgba(240,186,138,${0.25 + (i % 3) * 0.12})`); }
+  } });
+}
+// the big front lock that swoops over the near temple and back behind the ear
+function drawSwoop(hm, sw) {
+  const P = leaf(26, -60, -18, -62, -54, -12, 19);
+  part(T(P, hm), ['#24100a', '#4b291b', '#120604', '#e2a072'], { shade: 4, rim: 2, lw: 0.35, noLitLine: true, hl: 7, hlA: 0.4, line: '#160805', lineLit: '#d58c56', soft: 1.8, detail: g => {
+    g.setTransform(hm);
+    g.save(); g.filter = `blur(${1.4 * ZS}px)`; g.fillStyle = 'rgba(110,62,40,0.6)'; g.fill(leaf(24, -61, -16, -65, -52, -15, 8)); g.restore();
+    for (let k = -2; k <= 2; k++) taper(g, 24, -60 + k, -16, -62 + k * 3, -52, -12 + k * 2, 0.4, 1, k % 2 ? 'rgba(10,3,2,0.4)' : 'rgba(214,150,104,0.35)');
+  } });
 }
 function leaf(x0, y0, cx, cy, x1, y1, wm) {   // a lock: thin at the root, full in the middle, thin at the tip
   const N = 18, L = [], Rr = [];
