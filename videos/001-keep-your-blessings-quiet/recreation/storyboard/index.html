@@ -1,0 +1,78 @@
+<title>Woman Walk Storyboard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one-column storyboard sheet: keyframe, cycle sheet, beat table, open questions. Dark-first like the reel. */
+:root{--bg:#14100e;--panel:#1e1916;--line:#3a302a;--fg:#f3e9e0;--muted:#b4a396;--accent-ink:#f4ee2c;--warm:#ea8241;
+--display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Inter",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#faf6f2;--panel:#fff;--line:#e6dcd3;--fg:#21180f;--muted:#6e5d50;--accent-ink:#8a6a00;--warm:#c4602a;color-scheme:light}}
+:root[data-theme="light"]{--bg:#faf6f2;--panel:#fff;--line:#e6dcd3;--fg:#21180f;--muted:#6e5d50;--accent-ink:#8a6a00;--warm:#c4602a;color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1000px;margin:0 auto;padding-block:36px 64px}
+h1,h2{font-family:var(--display);line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,5vw,3rem);font-weight:800}
+h2{font-size:1.5rem;margin-top:48px}
+.eyebrow{font:500 .76rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--warm);display:block;margin-bottom:10px}
+p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:1.08rem}
+img{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--line)}
+figure{margin:18px 0 0}
+figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.two{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:20px;align-items:start}
+@media (max-width:720px){.two{grid-template-columns:1fr}}
+.table{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.92rem}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .72rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+td.mono{font-family:var(--mono);white-space:nowrap}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-top:16px}
+.card li{font-size:.95rem}
+b{font-weight:600}
+</style>
+<div class="wrap">
+  <span class="eyebrow">Video 001 recreation · storyboard for approval</span>
+  <h1>Woman walk: storyboard</h1>
+  <p class="lede">The woman from the reel, rebuilt in code in the reel's style, walking along a footpath at golden hour. These frames come from the real scene code, not sketches.</p>
+
+  <div class="two">
+    <figure><img src="keyframe_full.jpg" alt="Full 9:16 frame: black frame, two-line title, picture band with the woman walking"><figcaption>Reel layout: 1080×1920, title above, 16:9 picture band (y 656–1264).</figcaption></figure>
+    <div>
+      <figure><img src="keyframe_band.jpg" alt="Picture band: woman walking on a footpath, road in front, trees and lamp posts behind"><figcaption>Picture band at full size.</figcaption></figure>
+      <figure><img src="keyframe_face.jpg" alt="Close-up of her face and bun"><figcaption>Detail: freckles, blush, lashes, bun, coloured rim line.</figcaption></figure>
+    </div>
+  </div>
+
+  <h2>Walk cycle</h2>
+  <figure><img src="walk_cycle_sheet.jpg" alt="Twelve frames across one walk cycle"><figcaption>One full cycle, every 0.1 s. Planted feet move at exactly the ground's speed, so nothing slides.</figcaption></figure>
+
+  <h2>Beats (one continuous tracking shot, 8.0 s, silent)</h2>
+  <div class="table"><table>
+    <thead><tr><th>Time</th><th>What happens</th><th>How it moves</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">0.0 – 8.0</td><td>She walks left to right on the footpath, relaxed and smiling, eyes forward</td><td>7 walk cycles (1.14 s each, 105 steps/min). Body bob on each heel strike, opposite arm swing, slight head nod</td></tr>
+      <tr><td class="mono">continuous</td><td>The world slides past: slabs and road dashes, lamp posts, trees and buildings, far skyline</td><td>Camera tracks her. Parallax: road 1.15×, path 1×, lamp posts 0.8×, trees 0.42×, skyline 0.08×</td></tr>
+      <tr><td class="mono">continuous</td><td>Small life: loose strands and the bun swing with her steps; blinks at seeded times (about every 2–3 s)</td><td>Hair lags the head; blinks take 0.16 s</td></tr>
+      <tr><td class="mono">static</td><td>Low sun at the top right with a soft flare, long lamp-post shadows, dappled tree shade on the path</td><td>Lighting stays fixed while the shadows scroll with the ground</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="card">
+    <b>Style rules carried over from the style bible</b>
+    <ul>
+      <li>Dark-brown tapered outlines on the character only, turning orange on edges the sun hits</li>
+      <li>Two-tone soft cel shading with a rim-light band on the lit side; very warm orange skin</li>
+      <li>Big eyes with highlights, thick upper lashes with outer flicks, freckles and blush, nose shown as a tone</li>
+      <li>Messy high top-knot bun with flyaways, black spaghetti-strap crop cami, high-waisted dark-wash jeans</li>
+      <li>Painted, unlined, softly blurred background; three depth layers (road, her, the world behind)</li>
+    </ul>
+  </div>
+  <div class="card">
+    <b>Choices I made that you didn't specify</b>
+    <ul>
+      <li>White sneakers. The reel never shows her shoes outdoors.</li>
+      <li>The original two-line title sits above the picture, as in the reel.</li>
+      <li>Her body is in profile and her face is turned three-quarters toward the camera, so both eyes show, as in the reel.</li>
+    </ul>
+  </div>
+</div>

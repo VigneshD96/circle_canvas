@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Woman Walk — style recreation</title>
+<style>
+@font-face{font-family:"Montserrat";font-weight:800;src:url(data:font/woff2;base64,__FONT__) format("woff2")}
+html,body{margin:0;height:100%;background:#0d0b0a;color:#eee;font:14px system-ui,sans-serif}
+#wrap{display:flex;flex-direction:column;align-items:center;gap:10px;padding:12px}
+canvas{height:min(86vh,1920px);width:auto;max-width:100%;background:#000;border-radius:6px}
+#bar{display:flex;gap:10px;align-items:center;width:min(480px,100%)}
+#bar input{flex:1}
+button{background:#f4ee2c;color:#1a1400;border:0;border-radius:6px;padding:7px 12px;font-weight:600;cursor:pointer}
+</style></head><body><div id="wrap"><div id="stage"></div><div id="bar"><button id="pp" type="button">Pause</button><input id="sc" type="range" min="0" max="239" value="0" aria-label="Frame"><span id="fn">0</span></div></div>
+<script>__SCENE__</script>
+<script>
+(async()=>{await window.readyP;const S=window.SCENE;document.getElementById('stage').appendChild(S.canvas);
+const N=S.FPS*S.DUR,sc=document.getElementById('sc'),fn=document.getElementById('fn'),pp=document.getElementById('pp');sc.max=N-1;
+if(new URLSearchParams(location.search).has('render'))return;
+let playing=true,f=0,last=performance.now(),acc=0;
+function show(i){f=i;S.renderAt(i/S.FPS);sc.value=i;fn.textContent=i;}
+pp.onclick=()=>{playing=!playing;pp.textContent=playing?'Pause':'Play'};
+sc.oninput=()=>{playing=false;pp.textContent='Play';show(+sc.value)};
+function loop(now){acc+=now-last;last=now;if(playing&&acc>=1000/S.FPS){acc%=1000/S.FPS;show((f+1)%N)}requestAnimationFrame(loop)}
+show(0);requestAnimationFrame(loop);})();
+</script></body></html>
