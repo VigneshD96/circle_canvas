@@ -10,6 +10,8 @@
 
 Frames: [`frames/`](frames/). The contact sheets sample every 0.5 s; there's one clean still per shot plus a keyframe grid.
 
+**Visual style bible** (drawing style, line work, motion, composition, backgrounds, foreground, characters, props, palette): [`style-guide.html`](style-guide.html), with its images in [`style/`](style/). Viewable page: https://claude.ai/artifact/F3uDjYA8wGhMv9G1F67HCi
+
 ---
 
 ## 1. The idea in one line
@@ -44,18 +46,18 @@ y=1920  └───────────────────────
 | 1 | 0.00 → 2.67 | 2.67 | Night, dining room, warm lamp. Wide two-shot at a wooden table | Couple counting stacks of cash, smiling, then exchanging a glance (~1.5 s) | **Win #1: savings** |
 | 2 | 2.67 → 4.23 | 1.57 | Close two-shot, dark warm background | Each pinches a strip of beige masking tape, sticks it over their mouth (on by ~3.0 s), sly side-eye, finger to lips | **Shh beat** (first time: the tape is applied on screen) |
 | 3 | 4.23 → 6.87 | 2.63 | Empty bright apartment, floor-to-ceiling windows, city skyline, daylight | He raises a key ring (~4.5 s), she beams, they hug (~5.6–6.8 s) | **Win #2: new home** |
-| 4 | 6.87 → 8.00 | 1.13 | Close two-shot, **daylight window** background | Tape already on, finger to lips, glance | Shh beat |
+| 4 | 6.87 → 8.00 | 1.13 | Close two-shot, **daylight window** background | Opens on a close-up of the hug, morphs (~0.1 s) into the tape being pressed on, then finger to lips | Shh beat |
 | 5 | 8.00 → 8.73 | 0.73 | Bedroom, bedside lamp, night | She holds up a pink pregnancy test; he has his back to camera | **Win #3: pregnancy** (setup) |
 | 6 | 8.73 → 9.67 | 0.93 | Big close-up of his face | Wide eyes turn into a huge grin (slow push-in) | Reaction |
 | 7 | 9.67 → 10.73 | 1.07 | Bedroom, medium | She nuzzles into him, eyes closed, he holds her | Tender beat |
-| 8 | 10.73 → 12.00 | 1.27 | Close two-shot, **bedroom** background | Tape pressed on again, then finger to lips | Shh beat |
+| 8 | 10.73 → 12.00 | 1.27 | Close two-shot, **bedroom** background | Tape strips pulled taut, pressed on, then finger to lips | Shh beat |
 | 9 | 12.00 → 14.80 | 2.80 | Sunny parking lot, white sedan, trees | She is **visibly pregnant**; he hands her a key fob (~12–13 s), big hug (~14 s) | **Win #4: new car** |
-| 10 | 14.80 → 16.20 | 1.40 | Close two-shot, **outdoor/car** background | Tape on, finger to lips | Shh beat |
+| 10 | 14.80 → 16.20 | 1.40 | Close two-shot, **outdoor/car** background | Opens on a close-up of the hug (~0.2 s), morphs into taping, then finger to lips | Shh beat |
 | 11 | 16.20 → 19.90 | 3.70 | Living room, beige couch, rug, golden light | Baby takes first steps between kneeling parents (16–17 s). All three huddle; **parents and baby** put a finger to their lips (~18.3 s). **Fade to black 19.25 → 19.9 s** | **Win #5: baby + payoff** |
 
 ### Rhythm
 - Pattern: **WIN (≈2.7 s) → SHH (≈1.1–1.6 s)**, repeated. Win #3 is broken into three quick shots (0.7 / 0.9 / 1.1 s) for a burst of emotion.
-- The shh beat appears **4 times**. Only the first shows the tape being applied fully. Later ones start with the tape already on or being pressed on, so the beat gets shorter each time.
+- The shh beat appears **4 times**. **Every time, the tape is applied on screen** (held taut → pressed on at ~0.3–0.5 s → finger to lips at ~0.8 s). Beats 2 and 4 open on a close-up of the scene's hug that morphs into the taping pose in about 0.1–0.2 s. *(Corrected: the first version of this file wrongly said the tape was already on in later beats.)*
 - **Continuity detail:** each shh close-up sits in the matching location's lighting (night interior → daylight apartment → bedroom lamp → outdoor sun). It reads as "same moment, closer camera", not a reused clip.
 - **Time progression told visually:** pregnancy test → pregnant belly at the car → baby walking. That's about 1.5 years in 20 s with no text.
 - **Ending callback:** the baby joins the shh. This is the only shot where the refrain changes, so it lands as the punchline.
@@ -82,7 +84,7 @@ Picture-band mean luma: 103 at 19.0 s → 87 at 19.4 s → 67 at 19.6 s → 41 a
 
 1. **Character reference sheet** for the couple (and baby), so the look stays consistent.
 2. **One still per shot** made by AI image generation with those references, at 16:9.
-3. **Image-to-video** on each still for 1–3 s of motion (hugs forming, tape pressing, the push-in on his face). The soft, morph-like motion inside shots and the lack of camera cuts within a shot point to this.
+3. **Image-to-video** on each still (motion is on ones at ~24 fps, converted to 30 fps by repeating every 5th frame) for 1–3 s of motion (hugs forming, tape pressing, the push-in on his face). The soft, morph-like motion inside shots and the lack of camera cuts within a shot point to this.
 4. **Edit:** cut to the music, put the 16:9 clips on a black 9:16 canvas, add the static two-line title with the keywords in yellow, then a 0.6 s fade to black at the end.
 
 ## 7. Recreating it — shot prompts (template)

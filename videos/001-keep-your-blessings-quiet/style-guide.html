@@ -1,0 +1,314 @@
+<title>Quiet Blessings Style Bible</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a model-sheet / style bible. Narrow reading column, image plates break wider, swatch chips inline. Dark-first like the reel's black letterbox. */
+:root{
+  --bg:#14100e; --panel:#1e1916; --line:#3a302a; --fg:#f3e9e0; --muted:#b4a396;
+  --accent:#f4ee2c; --accent-ink:#f4ee2c; --warm:#ea8241;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Inter",ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#faf6f2;--panel:#fff;--line:#e6dcd3;--fg:#21180f;--muted:#6e5d50;--accent:#f4ee2c;--accent-ink:#8a6a00;--warm:#c4602a;color-scheme:light}}
+:root[data-theme="light"]{--bg:#faf6f2;--panel:#fff;--line:#e6dcd3;--fg:#21180f;--muted:#6e5d50;--accent:#f4ee2c;--accent-ink:#8a6a00;--warm:#c4602a;color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;padding-block:40px 80px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.1;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:800;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--accent-ink)}
+h2{font-size:clamp(1.6rem,3.5vw,2.3rem);font-weight:700;margin-top:72px;padding-top:24px;border-top:1px solid var(--line)}
+h3{font-size:1.2rem;font-weight:700;margin-top:28px}
+.eyebrow{font:500 .78rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--warm);margin-bottom:12px;display:block}
+p,li{max-width:68ch}
+.lede{font-size:1.15rem;color:var(--muted);margin-top:16px}
+ul{padding-left:1.2em}
+li{margin:.25em 0}
+b{font-weight:600}
+code,.mono{font-family:var(--mono);font-size:.86em}
+figure{margin:20px 0 0}
+figure img{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--line)}
+figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.g5{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+.grid>*{min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px}
+.card h3{margin-top:0}
+.card p,.card li{font-size:.94rem}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:760px){.split{grid-template-columns:1fr}}
+.sw{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{display:flex;align-items:center;gap:8px;font:400 .76rem/1.2 var(--mono);color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px 10px 4px 4px}
+.chip i{width:22px;height:22px;border-radius:50%;display:block;border:1px solid rgba(128,128,128,.35);flex:none}
+.chip span b{color:var(--fg);font-weight:500;display:block;font-family:var(--body);font-size:.78rem}
+.table{overflow-x:auto;margin-top:16px}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.9rem}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .74rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.tag{display:inline-block;font:500 .7rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;padding:4px 7px;border-radius:4px;background:var(--accent);color:#1a1400;margin-right:6px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.toc a{font:500 .82rem/1 var(--body);color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 12px}
+.toc a:hover,.toc a:focus-visible{border-color:var(--accent-ink);outline:none}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;overflow-x:auto;font:400 .82rem/1.55 var(--mono);white-space:pre-wrap}
+.copy{font:500 .8rem/1 var(--body);background:var(--accent);color:#1a1400;border:0;border-radius:6px;padding:9px 12px;cursor:pointer;margin-top:10px}
+.copy:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.note{font-size:.85rem;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <span class="eyebrow">Video 001 · @wealth reel · visual reverse-engineering</span>
+  <h1>Keep Your Blessings <em>Quiet</em>: style bible</h1>
+  <p class="lede">How the reel is drawn, lit, framed and moved. Every observation comes from frames pulled out of the 1080×1920 source; colour values were sampled from the pixels.</p>
+  <nav class="toc" aria-label="Sections">
+    <a href="#look">Overall look</a><a href="#line">Line &amp; rendering</a><a href="#motion">Motion</a><a href="#comp">Composition</a><a href="#bg">Backgrounds</a><a href="#fg">Foreground</a><a href="#chars">Characters</a><a href="#props">Props</a><a href="#palette">Palette</a><a href="#prompt">Recreate</a>
+  </nav>
+
+  <figure><img src="style/bg_living.jpg" alt="Final shot: parents kneeling on a rug as the baby walks between them, sofa behind"><figcaption>Shot 11 at 17.0 s. The look in one frame: inked characters, a soft painted set, low warm side light.</figcaption></figure>
+
+  <h2 id="look">Overall look</h2>
+  <div class="grid g3">
+    <div class="card"><h3>Genre of drawing</h3><p>Modern feature-animation 2D in the Disney/Pixar-adjacent "cartoon realism" vein. Inked characters with cel shading on soft, painted, almost photographic backgrounds.</p></div>
+    <div class="card"><h3>Likely pipeline</h3><p>AI-generated stills turned into motion with image-to-video. Evidence: fully fluid motion on every frame, morphing transitions, props rendered more realistically than the people, and slight drift in details from shot to shot. This is inferred, not confirmed.</p></div>
+    <div class="card"><h3>Three rules that make the look</h3><ul><li>Everything is graded <b>very warm</b>: skin reads as saturated orange.</li><li>Characters are <b>outlined</b>; backgrounds and props are <b>not</b>.</li><li>A strong <b>rim light</b> traces every silhouette.</li></ul></div>
+  </div>
+
+  <h2 id="line">Line &amp; rendering</h2>
+  <p>Zoomed 2× from full-resolution frames.</p>
+  <div class="grid g3">
+    <figure><img src="style/zoom_eye_man.jpg" alt="Close zoom of his eye"><figcaption><b>Eye (him):</b> cream-tinted white (not pure white, about <code>#F3CCAF</code>), brown iris ring, large black pupil, 3 white highlight dots. Heavy upper lid line, no lower lid line.</figcaption></figure>
+    <figure><img src="style/zoom_eye_woman.jpg" alt="Close zoom of her eye"><figcaption><b>Eye (her):</b> thicker upper lash mass with 2–3 flicked lashes at the outer corner. The iris is nearly all black. Freckle specks sit just below.</figcaption></figure>
+    <figure><img src="style/zoom_ear.jpg" alt="Close zoom of an ear with orange rim light"><figcaption><b>Coloured line:</b> where light hits, the outline turns <b>bright orange</b> instead of dark brown. Inner ear folds use thin, darker orange strokes.</figcaption></figure>
+    <figure><img src="style/zoom_nose_mouth.jpg" alt="Close zoom of nose and open smile"><figcaption><b>Nose &amp; mouth:</b> the nose is a darker flat triangle with one side line and a tiny nostril tick. Teeth are a single white band; the mouth interior is dark maroon (<code>#380E0A</code>) with a salmon tongue (<code>#BE4A2E</code>).</figcaption></figure>
+    <figure><img src="style/zoom_hand.jpg" alt="Close zoom of a hand pinching tape"><figcaption><b>Hands:</b> simplified five-finger hands. Knuckles and creases are single tapered strokes, the fingernail is a lighter oval, and the outline is thick and dark red-brown.</figcaption></figure>
+    <figure><img src="style/zoom_hair_bun.jpg" alt="Close zoom of her messy bun"><figcaption><b>Hair:</b> shaped as big clumps with a few dark separating strokes, then <b>flyaway single-line strands</b>. A warm highlight band sits on top.</figcaption></figure>
+  </div>
+  <div class="card" style="margin-top:20px">
+    <h3>Line spec</h3>
+    <ul>
+      <li><b>Colour:</b> very dark warm brown, about <code>#100402</code>, never neutral black. It shifts to orange on lit edges.</li>
+      <li><b>Weight:</b> about 3–4 px at 1080 px wide for silhouettes and about 1.5–2 px for inner detail. Ends taper; the line is slightly thicker in the crooks of joints.</li>
+      <li><b>Shading:</b> two tones (light and shadow) blended with a soft gradient, not a hard cel edge. Shadow skin is about <code>#9A451D</code> against lit skin at <code>#EA8241</code>.</li>
+      <li><b>Texture:</b> fine painterly grain on skin, plus soft round blush patches (<code>#E17235</code>) and freckle speckles on the nose and cheeks.</li>
+      <li><b>Mixed media:</b> money, keys, the car and windows are rendered semi-realistically with <b>no outlines</b>. That contrast keeps attention on the characters.</li>
+    </ul>
+  </div>
+  <div class="grid g3">
+    <figure><img src="style/zoom_money.jpg" alt="Close zoom of money stacks"><figcaption>Props carry realistic detail and no ink line.</figcaption></figure>
+    <figure><img src="style/zoom_bg_window.jpg" alt="Close zoom of window and skyline"><figcaption>Backgrounds are painted, low contrast and slightly blurred, with no ink.</figcaption></figure>
+    <figure><img src="style/zoom_shirt_piping.jpg" alt="Close zoom of shirt collar with piping"><figcaption>Wardrobe detail: light grey piping on a black pyjama shirt, with brown rim light on the fabric.</figcaption></figure>
+  </div>
+
+  <h2 id="motion">Motion &amp; animation</h2>
+  <figure><img src="style/shh_sequence.jpg" alt="Six frames: wide hug, close hug, morph, tape held, tape pressed, finger raised"><figcaption>Shh beat after the new-home scene (6.87 → 7.8 s). A hard cut to the close hug, then a 0.1–0.2 s morph into the taping pose.</figcaption></figure>
+  <div class="grid g2" style="margin-top:20px">
+    <div class="card"><h3>How things move</h3><ul>
+      <li><b>On ones:</b> every frame is a new image. The source is about <b>24 fps</b>, converted to 30 fps by repeating every 5th frame (measured: a near-zero frame difference every 5 frames).</li>
+      <li>Motion is smooth and floaty, with no squash-and-stretch, smears or held poses.</li>
+      <li>Each shot is a single continuous action of 0.7–3.7 s: count money, lift keys, hug, hand over a fob, take steps.</li>
+      <li>The camera is mostly locked off. Shot 6 has a slow <b>push-in</b> on his face as it turns from shock to a grin; some shots drift slightly.</li>
+      <li>Secondary motion is limited to blinks, small head tilts and hair strands swaying.</li>
+    </ul></div>
+    <div class="card"><h3>The shh choreography (repeats 4×)</h3><ul>
+      <li><span class="mono">0.0</span> Cut on the hug from the wide scene to a close two-shot of the same moment.</li>
+      <li><span class="mono">~0.1–0.2</span> Morph: the hug melts into both characters facing camera, each holding a strip of tape taut.</li>
+      <li><span class="mono">~0.3–0.5</span> Tape pressed over the mouth; eyes go wide and look sideways at each other.</li>
+      <li><span class="mono">~0.8</span> Index finger raised to the taped lips; they hold a conspiratorial side-glance.</li>
+      <li>The background changes every time to match the scene: dark interior, daylight apartment, bedroom lamp, sunny car park.</li>
+    </ul></div>
+  </div>
+
+  <h2 id="comp">Composition</h2>
+  <p>Thirds grid in white. Yellow lines show the triangle formed by the two heads and the focal point (red dot). The sun icon marks the key light.</p>
+  <div class="grid g2">
+    <figure><img src="style/comp_1_savings.jpg" alt="Composition overlay, savings scene"><figcaption><b>Savings:</b> symmetric lean-in, heads on the upper third line, cash stack on the centre line. Practical lamp on the left.</figcaption></figure>
+    <figure><img src="style/comp_2_home.jpg" alt="Composition overlay, new home scene"><figcaption><b>New home:</b> couple left of centre; the keys rise into open sky on the right. The white column frames the left third.</figcaption></figure>
+    <figure><img src="style/comp_3_test.jpg" alt="Composition overlay, pregnancy test scene"><figcaption><b>Pregnancy test:</b> over-the-shoulder, with his dark back as a framing block on the right. Both eyelines meet at the test.</figcaption></figure>
+    <figure><img src="style/comp_4_car.jpg" alt="Composition overlay, car scene"><figcaption><b>New car:</b> the car is a full-width midground wall and the hand-off sits at the low centre. Backlit by low sun with flare at the top right.</figcaption></figure>
+    <figure><img src="style/comp_5_baby.jpg" alt="Composition overlay, baby scene"><figcaption><b>Baby:</b> the most symmetric frame. Parents mirror each other with the baby at the base of the triangle, camera near floor height.</figcaption></figure>
+    <div class="card"><h3>Framing rules used throughout</h3><ul>
+      <li>Always <b>two characters, side by side</b>. The man is on the right in every scene except the very first.</li>
+      <li>Wide "win" shots are at eye level, about knee-up to full figure.</li>
+      <li>Shh shots are tight two-shots, cropped at the chest and filled edge to edge with the two faces.</li>
+      <li>Reaction is a centred, symmetrical big close-up.</li>
+      <li>The <b>prop is always at frame centre</b>: cash, keys, test, fob, baby.</li>
+      <li>Shallow depth of field. The background is always softer than the characters.</li>
+    </ul></div>
+  </div>
+
+  <h2 id="bg">Background design</h2>
+  <p>Backgrounds are painted, unlined and slightly blurred. Each one has a single obvious light source and few, large, simple shapes. Interiors at night are lit by a <b>visible lamp</b>; day scenes are lit by <b>huge windows</b> or a <b>low sun</b>.</p>
+  <div class="grid g2">
+    <div class="card"><figure style="margin:0"><img src="style/bg_dining.jpg" alt="Night dining room"></figure><h3>1 · Night dining room</h3><p>Wood-panelled walls in olive-brown, a wooden table and spindle chairs, a shaded table lamp at the left, a shelf with a plant, a framed picture, and a dark blue window with a star at the right. Mood: cosy, secret, after-hours.</p>
+      <div class="sw"><span class="chip"><i style="background:#614128"></i><span><b>wall</b>#614128</span></span><span class="chip"><i style="background:#9C5224"></i><span><b>table</b>#9C5224</span></span><span class="chip"><i style="background:#E69759"></i><span><b>lamp spill</b>#E69759</span></span><span class="chip"><i style="background:#2A242A"></i><span><b>shadow</b>#2A242A</span></span></div></div>
+    <div class="card"><figure style="margin:0"><img src="style/bg_apartment.jpg" alt="Empty apartment with glass walls"></figure><h3>2 · Empty new apartment</h3><p>An unfurnished high-rise unit: floor-to-ceiling window grid, a city skyline in hazy blue, white round columns, a glossy honey-wood floor with long sun streaks, recessed ceiling lights. Mood: open, aspirational, fresh start.</p>
+      <div class="sw"><span class="chip"><i style="background:#DCE5F1"></i><span><b>sky</b>#DCE5F1</span></span><span class="chip"><i style="background:#E4AF8A"></i><span><b>floor</b>#E4AF8A</span></span><span class="chip"><i style="background:#ADB0BE"></i><span><b>skyline</b>#ADB0BE</span></span><span class="chip"><i style="background:#E9D4CB"></i><span><b>walls</b>#E9D4CB</span></span></div></div>
+    <div class="card"><figure style="margin:0"><img src="style/bg_bedroom.jpg" alt="Bedroom at night"></figure><h3>3 · Bedroom at night</h3><p>A wooden headboard, white duvet and pillows, a bedside lamp with a cream shade at the left, a plain mauve-brown wall. Very little else. Mood: intimate, private.</p>
+      <div class="sw"><span class="chip"><i style="background:#664940"></i><span><b>wall</b>#664940</span></span><span class="chip"><i style="background:#FDDA9D"></i><span><b>lamp glow</b>#FDDA9D</span></span><span class="chip"><i style="background:#905C41"></i><span><b>headboard</b>#905C41</span></span><span class="chip"><i style="background:#261917"></i><span><b>shadow</b>#261917</span></span></div></div>
+    <div class="card"><figure style="margin:0"><img src="style/bg_carpark.jpg" alt="Sunny car park with white sedan"></figure><h3>4 · Car park, golden hour</h3><p>A white modern sedan with blue-tinted reflections, a sky shading from blue to pale, rounded green trees, tall lamp posts, a low-rise building, and low sun with a lens flare at the top right. Mood: bright, achieved.</p>
+      <div class="sw"><span class="chip"><i style="background:#A4C7EC"></i><span><b>sky</b>#A4C7EC</span></span><span class="chip"><i style="background:#D7DBE6"></i><span><b>car white</b>#D7DBE6</span></span><span class="chip"><i style="background:#908754"></i><span><b>trees</b>#908754</span></span><span class="chip"><i style="background:#3F4651"></i><span><b>glass</b>#3F4651</span></span></div></div>
+    <div class="card"><figure style="margin:0"><img src="style/bg_living.jpg" alt="Living room with sofa and rug"></figure><h3>5 · Living room</h3><p>A beige-taupe sofa with a mustard cushion and a terracotta cushion, a cream shag rug in the foreground, a potted plant at the top left, a sheer-curtained window at the right with afternoon light raking across the floor. Mood: home, settled.</p>
+      <div class="sw"><span class="chip"><i style="background:#93735F"></i><span><b>sofa</b>#93735F</span></span><span class="chip"><i style="background:#BC8148"></i><span><b>mustard cushion</b>#BC8148</span></span><span class="chip"><i style="background:#F4CFB1"></i><span><b>rug</b>#F4CFB1</span></span><span class="chip"><i style="background:#EDCCAE"></i><span><b>window light</b>#EDCCAE</span></span></div></div>
+    <div class="card"><h3>Shh-beat backgrounds</h3><p>The close-up uses the <b>same location, fully blurred</b>. Only the colour of light and a hint of shape remain, such as a window grid or a car roof.</p>
+      <div class="grid g2" style="gap:8px;margin-top:10px">
+        <img src="style/bg_shh_dark.jpg" alt="Shh beat, dark interior"><img src="style/bg_shh_day.jpg" alt="Shh beat, daylight apartment">
+        <img src="style/bg_shh_bed.jpg" alt="Shh beat, bedroom"><img src="style/bg_shh_out.jpg" alt="Shh beat, outdoors">
+      </div></div>
+  </div>
+  <div class="card" style="margin-top:20px"><h3>Lighting rhythm across the reel</h3><p>Warm night → cool day → warm night → cool day → warm golden. Alternating colour temperature makes each "win" feel like a new chapter, while orange skin keeps it all one world.</p></div>
+
+  <h2 id="fg">Foreground design</h2>
+  <div class="split">
+    <div>
+      <ul>
+        <li><b>Three depth layers in every wide shot:</b> a soft foreground surface (table, duvet, car door, rug), the characters in the sharp midground, and a blurred background.</li>
+        <li>Foreground elements are <b>surfaces, not objects</b>. They run along the bottom edge and ground the characters without blocking them.</li>
+        <li>The only foreground "object" is the hero prop, held at chest height in the centre.</li>
+        <li>Characters are separated from the background by <b>outline + rim light + depth of field</b>, never by a hard colour contrast alone.</li>
+        <li>Wardrobe is dark (black and navy), so figures read as strong dark masses against light or mid-tone sets. Skin glows on top of those masses.</li>
+        <li>No text, logos or UI inside the picture. The only text is the title above it.</li>
+      </ul>
+    </div>
+    <figure style="margin-top:0"><img src="style/comp_4_car.jpg" alt="Car scene with foreground door, midground couple, background trees"><figcaption>Layering at a glance: car door (FG), couple (MG), trees and sky (BG).</figcaption></figure>
+  </div>
+
+  <h2 id="chars">Characters</h2>
+  <p>Proportions are stylised realism: adults are about <b>6.5–7 heads tall</b>, with slightly enlarged heads and eyes that take up about 30% of the face width. Eyes sit at the vertical middle of the head. Same skin family for both adults, deliberately oversaturated orange.</p>
+
+  <h3>Him</h3>
+  <div class="grid g3">
+    <figure><img src="style/char_man_face.jpg" alt="His face, front view, grinning"></figure>
+    <figure><img src="style/char_man_body.jpg" alt="Him standing, holding keys up"></figure>
+    <figure><img src="style/char_man_final.jpg" alt="Him in the final scene in a navy shirt"></figure>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3>Head &amp; face</h3><ul>
+      <li>Long face, defined <b>square jaw</b> tapering to a narrow chin; long neck with a visible Adam's apple and neck tendons.</li>
+      <li>Large C-shaped ears that stick out slightly, always rim-lit orange.</li>
+      <li><b>Thick wedge eyebrows</b>, darker than his hair (about <code>#1A0C07</code>). They tilt up in the middle for the sheepish "worried-happy" look.</li>
+      <li>Big oval eyes, brown irises, multiple highlight dots.</li>
+      <li>Triangular nose made of tone, not line. Soft round blush patches with freckles.</li>
+      <li>Default expression is a closed-mouth smirk. Big moments get a wide open grin.</li>
+    </ul></div>
+    <div class="card"><h3>Hair &amp; wardrobe</h3><ul>
+      <li>Dark brown (<code>#39190F</code>) with warm caramel highlights. Short faded sides, a <b>longer swept-up quiff</b> pushed to one side, a few loose strands on the forehead.</li>
+      <li><b>Scenes 1–4:</b> black long-sleeve pyjama-style shirt, notched lapel collar, <b>light grey piping</b> on the collar, placket and cuffs, small grey buttons. Sleeves rolled to the elbow in the car scene. Charcoal trousers.</li>
+      <li><b>Scene 5:</b> navy (<code>#1F1922</code>) button-neck long-sleeve shirt with sleeves pushed up, grey-brown chinos, dark shoes.</li>
+      <li>Lean, tall build, noticeably taller than her (about a head).</li>
+    </ul></div>
+  </div>
+  <figure><img src="style/expr_man.jpg" alt="His expression range: content, shock, joy, sheepish, conspiratorial"><figcaption>His expression range.</figcaption></figure>
+
+  <h3>Her</h3>
+  <div class="grid g3">
+    <figure><img src="style/char_woman_face.jpg" alt="Her face, smiling, holding the test"></figure>
+    <figure><img src="style/char_woman_body.jpg" alt="Her standing in a crop top and jeans"></figure>
+    <figure><img src="style/char_woman_pregnant.jpg" alt="Her pregnant, beside the car"></figure>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3>Head &amp; face</h3><ul>
+      <li>Softer oval face with a rounder chin, slightly peachier skin than his (about <code>#D47947</code> lit).</li>
+      <li>Big eyes with a <b>thick upper lash line and 2–3 flicked lashes</b>; no lower lashes. Irises read almost black.</li>
+      <li>Thick, dark, gently arched brows.</li>
+      <li>Freckles across the nose bridge and cheeks, round blush patches, a small button nose.</li>
+      <li>Expressive, wide open-mouth smile; often a sly side-eye.</li>
+    </ul></div>
+    <div class="card"><h3>Hair &amp; wardrobe</h3><ul>
+      <li>Very dark brown (<code>#3C201B</code>) hair in a <b>messy high top-knot bun</b>, with many loose strands framing the face and falling to the shoulders. This silhouette identifies her.</li>
+      <li>Black spaghetti-strap <b>crop cami</b> (<code>#1C1714</code>) showing a strip of midriff.</li>
+      <li>High-waisted <b>dark-wash jeans</b> (<code>#2F2C34</code>) with a visible button and front pockets.</li>
+      <li>Same outfit in every scene, including pregnancy (the cami stretches over a rounded belly). Barefoot in the living room.</li>
+      <li>Slim, petite build.</li>
+    </ul></div>
+  </div>
+  <figure><img src="style/expr_woman.jpg" alt="Her expression range: delight, knowing smile, blissful, side-eye, laughing"><figcaption>Her expression range.</figcaption></figure>
+
+  <h3>The baby</h3>
+  <div class="split">
+    <figure style="margin-top:0"><img src="style/char_baby.jpg" alt="Baby walking in a cream onesie"></figure>
+    <div class="card"><ul>
+      <li>About <b>3 heads tall</b>: a very large round head, chubby limbs, tiny hands.</li>
+      <li>Wispy strawberry-blonde hair with a single curl on top.</li>
+      <li>Huge <b>blue-grey eyes</b> with white highlights; rosy round cheeks (<code>#F3A474</code> skin, pinker blush); tiny nose; open laughing mouth with a visible tongue.</li>
+      <li>Cream-peach <b>footed zip-up onesie</b> (<code>#DFA575</code> in the warm light) with a centre zip and ribbed cuffs.</li>
+      <li>Drawn with <b>thinner, lighter brown lines</b> than the adults, which makes the baby read softer.</li>
+      <li>Shown only in the final scene, where the baby copies the parents' finger-to-lips.</li>
+    </ul></div>
+  </div>
+  <figure><img src="style/zoom_baby_face.jpg" alt="Baby face close zoom" style="max-width:420px"></figure>
+
+  <h2 id="props">Props</h2>
+  <figure><img src="style/props.jpg" alt="Props: cash stacks, keys, pregnancy test, car fob, masking tape"></figure>
+  <div class="table"><table>
+    <thead><tr><th>Prop</th><th>Look</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td>Cash</td><td>Two tall stacks of US-style green bills plus a fan of loose bills; realistic, desaturated olive green (<code>#70633D</code>)</td><td>Savings</td></tr>
+      <tr><td>House keys</td><td>Silver ring with 3–4 keys (silver and brass), held high</td><td>New home</td></tr>
+      <tr><td>Pregnancy test</td><td>White stick, hot-pink cap and window (<code>#F25979</code>), two pink lines</td><td>Pregnancy. The brightest saturated non-skin colour in the reel.</td></tr>
+      <tr><td>Car fob</td><td>Black rounded remote key resting in her cupped palm</td><td>New car</td></tr>
+      <tr><td>Masking tape</td><td>Beige paper tape (<code>#D6A878</code>) with torn, jagged ends, slightly translucent, thin outline</td><td>The refrain: keep quiet</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2 id="palette">Master palette</h2>
+  <h3>Skin &amp; face</h3>
+  <div class="sw">
+    <span class="chip"><i style="background:#EA8241"></i><span><b>his skin lit</b>#EA8241</span></span>
+    <span class="chip"><i style="background:#9A451D"></i><span><b>his skin shadow</b>#9A451D</span></span>
+    <span class="chip"><i style="background:#D47947"></i><span><b>her skin</b>#D47947</span></span>
+    <span class="chip"><i style="background:#F3A474"></i><span><b>baby skin</b>#F3A474</span></span>
+    <span class="chip"><i style="background:#E17235"></i><span><b>blush</b>#E17235</span></span>
+    <span class="chip"><i style="background:#F3CCAF"></i><span><b>eye white</b>#F3CCAF</span></span>
+    <span class="chip"><i style="background:#380E0A"></i><span><b>mouth</b>#380E0A</span></span>
+    <span class="chip"><i style="background:#BE4A2E"></i><span><b>tongue</b>#BE4A2E</span></span>
+    <span class="chip"><i style="background:#100402"></i><span><b>ink line</b>#100402</span></span>
+  </div>
+  <h3>Hair &amp; wardrobe</h3>
+  <div class="sw">
+    <span class="chip"><i style="background:#39190F"></i><span><b>his hair</b>#39190F</span></span>
+    <span class="chip"><i style="background:#1A0C07"></i><span><b>brows</b>#1A0C07</span></span>
+    <span class="chip"><i style="background:#3C201B"></i><span><b>her hair</b>#3C201B</span></span>
+    <span class="chip"><i style="background:#241F21"></i><span><b>black shirt</b>#241F21</span></span>
+    <span class="chip"><i style="background:#1F1922"></i><span><b>navy shirt</b>#1F1922</span></span>
+    <span class="chip"><i style="background:#4F4036"></i><span><b>chinos</b>#4F4036</span></span>
+    <span class="chip"><i style="background:#1C1714"></i><span><b>cami</b>#1C1714</span></span>
+    <span class="chip"><i style="background:#2F2C34"></i><span><b>jeans</b>#2F2C34</span></span>
+    <span class="chip"><i style="background:#DFA575"></i><span><b>onesie</b>#DFA575</span></span>
+  </div>
+  <h3>Light &amp; accents</h3>
+  <div class="sw">
+    <span class="chip"><i style="background:#FDDA9D"></i><span><b>lamp glow</b>#FDDA9D</span></span>
+    <span class="chip"><i style="background:#F08D4B"></i><span><b>rim/skin glow</b>#F08D4B</span></span>
+    <span class="chip"><i style="background:#DCE5F1"></i><span><b>day sky</b>#DCE5F1</span></span>
+    <span class="chip"><i style="background:#F25979"></i><span><b>test pink</b>#F25979</span></span>
+    <span class="chip"><i style="background:#D6A878"></i><span><b>tape</b>#D6A878</span></span>
+    <span class="chip"><i style="background:#F4EE2C"></i><span><b>title yellow</b>#F4EE2C</span></span>
+    <span class="chip"><i style="background:#000000"></i><span><b>letterbox</b>#000000</span></span>
+  </div>
+  <p class="note">Sampled from compressed video pixels under scene lighting, so treat these as on-screen values, not the artist's flat base colours.</p>
+
+  <h2 id="prompt">Recreate the look</h2>
+  <p>A reusable style block and character descriptions for image or video generation, written from the observations above.</p>
+<pre id="promptText">STYLE: modern 2D feature-animation cartoon, Disney/Pixar-adjacent, clean tapered dark-brown ink outlines on characters only (outline turns orange where rim-lit), soft two-tone cel shading with gentle gradients, painterly grain on skin, very warm orange skin tones, round blush patches and freckles, big glossy eyes with multiple white highlight dots, strong warm rim light on every silhouette, painted unlined slightly blurred backgrounds, shallow depth of field, one obvious light source (table lamp at night / big windows or low golden sun by day), cinematic 16:9.
+
+HIM: tall lean man, about 6.5 heads tall, long face with square jaw, large ears, thick dark wedge eyebrows, dark-brown hair with short sides and a swept-up side quiff, brown eyes, freckles; black long-sleeve pyjama-style button shirt with notched collar and light-grey piping, charcoal trousers. (Final scene: navy button-neck shirt with pushed sleeves, grey chinos.)
+
+HER: petite woman, oval face, big near-black eyes with thick upper lashes and flicked outer lashes, freckles across nose, very dark brown hair in a messy high top-knot bun with many loose face-framing strands; black spaghetti-strap crop cami, high-waisted dark-wash jeans.
+
+BABY: about 3 heads tall, wispy strawberry-blonde hair with one curl, big blue-grey eyes, rosy cheeks, cream footed zip-up onesie, softer thinner line work.
+
+SHH BEAT: tight two-shot of the couple, each pressing a strip of torn beige masking tape over their mouth, then raising an index finger to their lips, sly sideways glance at each other, background = same location blurred.</pre>
+  <button class="copy" id="copyBtn" type="button">Copy style prompt</button>
+  <p class="note" style="margin-top:28px">Source: Instagram reel DgHUJ3Bhpt3 by @wealth. Reference frames are stored with the video in the circle_canvas repo under videos/001-keep-your-blessings-quiet/.</p>
+</div>
+<script>
+document.getElementById('copyBtn').addEventListener('click',function(){
+  var b=this,t=document.getElementById('promptText').textContent;
+  function done(m){b.textContent=m;setTimeout(function(){b.textContent='Copy style prompt'},1800)}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){done('Copied')},sel)}else sel();
+  function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById('promptText'));var s=getSelection();s.removeAllRanges();s.addRange(r);done('Selected: press Ctrl/Cmd+C')}
+});
+</script>
