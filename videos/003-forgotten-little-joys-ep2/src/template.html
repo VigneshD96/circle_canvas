@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forgotten Little Joys · Episode 2</title>
+<style>
+@font-face{font-family:"Tinos";src:url(data:font/woff2;base64,__TINOS__) format("woff2")}
+@font-face{font-family:"Patrick Hand";src:url(data:font/woff2;base64,__PATRICK__) format("woff2")}
+@font-face{font-family:"Courier Prime";font-weight:700;src:url(data:font/woff2;base64,__COURIER__) format("woff2")}
+html,body{margin:0;height:100%;background:#151210;color:#eee;font:14px system-ui,sans-serif}
+#wrap{display:flex;flex-direction:column;align-items:center;gap:10px;padding:12px}
+canvas{height:min(84vh,1920px);width:auto;max-width:100%;border-radius:6px}
+#bar{display:flex;gap:10px;align-items:center;width:min(520px,100%)}
+#bar input{flex:1}
+button{background:#f0b07a;color:#2a1a10;border:0;border-radius:6px;padding:7px 12px;font-weight:600;cursor:pointer}
+</style></head><body><div id="wrap"><div id="stage"></div>
+<div id="bar"><button id="pp" type="button">Pause</button><button id="snd" type="button">Sound on</button><input id="sc" type="range" min="0" max="1415" value="0" aria-label="Frame"><span id="fn">0</span></div></div>
+<audio id="au" src="__AUDIO__" preload="auto" muted></audio>
+<script>__SCENE__</script>
+<script>
+(async()=>{await window.readyP;const S=window.SCENE;document.getElementById('stage').appendChild(S.canvas);
+const N=S.FPS*S.DUR,sc=document.getElementById('sc'),fn=document.getElementById('fn'),pp=document.getElementById('pp'),au=document.getElementById('au'),snd=document.getElementById('snd');sc.max=N-1;
+if(new URLSearchParams(location.search).has('render'))return;
+let playing=true,f=0,t0=performance.now();
+function show(i){f=i;S.renderAt(i/S.FPS);sc.value=i;fn.textContent=(i/S.FPS).toFixed(2)+'s';}
+function sync(){t0=performance.now()-f/S.FPS*1000;if(au.src){au.currentTime=f/S.FPS;if(playing)au.play().catch(()=>{});else au.pause();}}
+pp.onclick=()=>{playing=!playing;pp.textContent=playing?'Pause':'Play';sync();};
+snd.onclick=()=>{au.muted=!au.muted;snd.textContent=au.muted?'Sound on':'Sound off';sync();};
+sc.oninput=()=>{playing=false;pp.textContent='Play';show(+sc.value);sync();};
+function loop(now){if(playing){const i=Math.floor((now-t0)/1000*S.FPS);if(i>=N){t0=now;show(0);sync();}else if(i!==f)show(i);}requestAnimationFrame(loop);}
+show(0);sync();requestAnimationFrame(loop);})();
+</script></body></html>
