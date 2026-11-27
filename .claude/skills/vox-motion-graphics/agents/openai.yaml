@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vox Motion Graphics"
+  short_description: "Research, animate and finish editorial explainers"
+  default_prompt: "Use $vox-motion-graphics to turn my brief into a finished editorial explainer with a coherent visual style, narration and sound."
