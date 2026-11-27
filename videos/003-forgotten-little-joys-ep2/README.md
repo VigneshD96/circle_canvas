@@ -3,7 +3,7 @@
 Made from [`../002-forgotten-little-joys-ep1/THEME.md`](../002-forgotten-little-joys-ep1/THEME.md). Final video: [`episode2.mp4`](episode2.mp4). It's 1080×1920, 24 fps, exactly 59.0 s (1,416 frames), with AAC audio at about −14 LUFS.
 
 **Caption:** "POV / you were your dads tv remote".
-**Story:** Dad's cricket match turns to static and he can't reach the dial. The kid turns the dial, then runs up to the roof to twist the antenna. The picture comes back, Dad gives him a kulfi, and they share kulfis on the sofa. The last shot is the kid's first bite. End card: "forgotten / little joys of life / ( episode 2 )".
+**Story:** Dad's cricket match turns to static and he can't reach the dial. The kid turns the dial, then runs up to the roof to twist the antenna. The picture comes back, Dad gives him a kulfi, and they share kulfis on the sofa. The last shot is the kid's first bite. End card: "forgotten / little joys of life" (episode number removed on request).
 
 ## Pipeline (all through OpenRouter)
 1. **Style references:** 13 frames from episode 1 ([`pipeline/`](pipeline/), refs not committed).

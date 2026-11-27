@@ -1,7 +1,7 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
-@font-face{font-family:"Tinos";src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/tinos-latin-400-normal.woff2)}
-@font-face{font-family:"Patrick Hand";src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/patrick-hand-latin-400-normal.woff2)}
-@font-face{font-family:"Courier Prime";font-weight:700;src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/courier-prime-latin-700-normal.woff2)}
+@font-face{font-family:"Tinos";src:url(fonts/tinos-latin-400-normal.woff2)}
+@font-face{font-family:"Patrick Hand";src:url(fonts/patrick-hand-latin-400-normal.woff2)}
+@font-face{font-family:"Courier Prime";font-weight:700;src:url(fonts/courier-prime-latin-700-normal.woff2)}
 </style></head><body><script>
 window.make = async () => {
   await Promise.all([document.fonts.load('44px "Tinos"'), document.fonts.load('36px "Patrick Hand"'), document.fonts.load('bold 84px "Courier Prime"')]);
@@ -23,7 +23,6 @@ window.make = async () => {
   // end-card title
   [c, g] = mk(1080, 1920); g.textAlign = 'center'; g.fillStyle = '#7A3E1E'; g.shadowColor = 'rgba(245,150,70,0.85)'; g.shadowBlur = 28;
   g.font = 'bold 84px "Courier Prime"'; g.fillText('forgotten', 540, 930); g.fillText('little joys of life', 540, 1030);
-  g.font = 'bold 46px "Courier Prime"'; g.fillText('( episode 2 )', 540, 1120);
   out.title = c.toDataURL();
   return out;
 };
