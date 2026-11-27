@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:"Tinos";src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/tinos-latin-400-normal.woff2)}
+@font-face{font-family:"Patrick Hand";src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/patrick-hand-latin-400-normal.woff2)}
+@font-face{font-family:"Courier Prime";font-weight:700;src:url(file:///home/user/circle_canvas/videos/003-forgotten-little-joys-ep2/src/fonts/courier-prime-latin-700-normal.woff2)}
+</style></head><body><script>
+window.make = async () => {
+  await Promise.all([document.fonts.load('44px "Tinos"'), document.fonts.load('36px "Patrick Hand"'), document.fonts.load('bold 84px "Courier Prime"')]);
+  const out = {};
+  const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return [c, c.getContext('2d')]; };
+  // fixed POV caption, same geometry as episode 1
+  let [c, g] = mk(1080, 1920); g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillStyle = '#000'; g.fillRect(481, 324, 118, 89); g.fillStyle = '#fff'; g.font = '44px "Tinos"'; g.fillText('POV', 540, 370);
+  g.font = '40px "Tinos"'; const l1 = 'you were your dads', l2 = 'tv remote';
+  const w = Math.max(g.measureText(l1).width, g.measureText(l2).width) + 44;
+  g.fillStyle = '#000'; g.fillRect(540 - w / 2, 424, w, 139); g.fillStyle = '#fff'; g.fillText(l1, 540, 470); g.fillText(l2, 540, 520);
+  out.caption = c.toDataURL();
+  // speech bubbles: white pill, thin dark outline, short tail, handwritten lower case
+  const bubble = (text, tailRight) => { const [b, x] = mk(700, 140); x.font = '40px "Patrick Hand"'; const bw = x.measureText(text).width + 52, bh = 68, bx = (700 - bw) / 2, by = 20;
+    x.beginPath(); x.roundRect(bx, by, bw, bh, 34); x.fillStyle = '#fff'; x.fill(); x.lineWidth = 3; x.strokeStyle = '#2a2018'; x.stroke();
+    x.beginPath(); const tx = tailRight ? bx + bw * 0.78 : bx + bw * 0.22; x.moveTo(tx, by + bh - 2); x.lineTo(tx + (tailRight ? 6 : -6), by + bh + 30); x.stroke();
+    x.fillStyle = '#2a2018'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(text, 350, by + bh / 2 + 2); return b.toDataURL(); };
+  out.aaya = bubble('aaya papaaa??', false); out.thanks = bubble('thank youuu', false);
+  // end-card title
+  [c, g] = mk(1080, 1920); g.textAlign = 'center'; g.fillStyle = '#7A3E1E'; g.shadowColor = 'rgba(245,150,70,0.85)'; g.shadowBlur = 28;
+  g.font = 'bold 84px "Courier Prime"'; g.fillText('forgotten', 540, 930); g.fillText('little joys of life', 540, 1030);
+  g.font = 'bold 46px "Courier Prime"'; g.fillText('( episode 2 )', 540, 1120);
+  out.title = c.toDataURL();
+  return out;
+};
+</script></body></html>

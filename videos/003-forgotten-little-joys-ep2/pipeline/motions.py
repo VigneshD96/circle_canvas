@@ -1,0 +1,21 @@
+KEEP = " Static locked camera, no zoom, no pan, no cuts. Keep the hand-drawn storybook art style, paper texture, colours, characters and composition exactly as in the image. No new characters, no text."
+M = {
+ 1: ("The TV screen flickers with crackling grey static and the faint cricket picture wavers in and out; steam curls gently up from the steel tumbler of chai.", 5),
+ 2: ("The man's forearm slides up from the bottom of the frame toward the round channel dial and his fingers stretch and wiggle, straining, but he cannot reach it; the TV static flickers.", 5),
+ 4: ("The TV screen is full of crackling grey static snow with rolling horizontal lines; the picture never returns.", 5),
+ 5: ("The man sighs: his shoulders sink slowly and a small puff of breath drifts out; his eyes stay closed the whole time.", 5),
+ 6: ("The boy leans in a little further from behind the door frame, blinks curiously and tilts his head; the little question mark bobs above his head; the curtain sways slightly.", 5),
+ 7: ("The boy's hand grips the round channel dial and turns it with three quick clicks, the dial rotating step by step; static flickers on the screen at the top.", 5),
+ 8: ("The man smiles and gives two small upward jabs of his raised index finger, eyebrows lifting, as if saying 'go up to the roof'.", 5),
+ 9: ("The boy gives a firm thumbs up with a determined grin, then turns and dashes out of the frame to the right.", 5),
+ 10: ("The boy, on tiptoe, twists the antenna pole back and forth with both hands while shouting upward; the fishbone antenna at the top swivels left and right; his shirt flutters in the breeze.", 5),
+ 11: ("The TV picture flickers with static for a moment and then snaps into a clear cricket match where the tiny players move; a small sparkle twinkles on the screen; the man's head stays still in the foreground.", 5),
+ 12: ("The boy jumps up and down once with both fists raised, squeezing his eyes shut in a huge grin; the little action tick marks around him pulse.", 5),
+ 13: ("The boy stands proudly with his eyes closed, chest puffed out, swaying slightly; far behind him the man waves his hand from the stairwell door, calling him down.", 5),
+ 14: ("The man's hand from the top of the frame lowers the kulfi gently into the boy's open palm, lets go and slides back up out of frame; the boy's fingers curl slightly around the stick; tiny sparkles twinkle.", 5),
+ 15: ("The boy looks at the kulfi in his hands, his eyes widen with delight and he breaks into a big happy smile, rocking on his heels.", 5),
+ 16: ("The man and the boy sit side by side licking their kulfis while watching TV; the boy swings his dangling feet back and forth; soft TV light flickers on their faces.", 5),
+ 17: ("The man smiles warmly, his eyes crinkling, and extends his own kulfi further forward toward someone at the left, offering it.", 5),
+ 18: ("The boy stares at the kulfi with huge sparkling eyes, his mouth opens in wonder, then he takes a slow happy bite and closes his eyes in bliss, cheeks glowing.", 8),
+ 19: ("Tiny sparkles twinkle softly around the kulfis and the crumbs shimmer; everything else stays still and the centre stays empty.", 5),
+}
