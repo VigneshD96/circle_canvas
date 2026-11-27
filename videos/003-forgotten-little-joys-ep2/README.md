@@ -1,6 +1,6 @@
 # 003 — "Forgotten Little Joys of Life" · Episode 2: the TV remote
 
-Made from [`../002-forgotten-little-joys-ep1/THEME.md`](../002-forgotten-little-joys-ep1/THEME.md). Final video: [`episode2.mp4`](episode2.mp4). It's 1080×1920, 24 fps, exactly 59.0 s (1,416 frames), with AAC audio at −14.1 LUFS.
+Made from [`../002-forgotten-little-joys-ep1/THEME.md`](../002-forgotten-little-joys-ep1/THEME.md). Final video: [`episode2.mp4`](episode2.mp4). It's 1080×1920, 24 fps, exactly 59.0 s (1,416 frames), with AAC audio at about −14 LUFS.
 
 **Caption:** "POV / you were your dads tv remote".
 **Story:** Dad's cricket match turns to static and he can't reach the dial. The kid turns the dial, then runs up to the roof to twist the antenna. The picture comes back, Dad gives him a kulfi, and they share kulfis on the sofa. The last shot is the kid's first bite. End card: "forgotten / little joys of life / ( episode 2 )".
@@ -13,7 +13,8 @@ Made from [`../002-forgotten-little-joys-ep1/THEME.md`](../002-forgotten-little-
    - Clips are upscaled to 1080×1920 and cut on episode 1's exact cut grid (19 shots).
    - A 3-frame dissolve into the rooftop and a 0.5 s fade into the end card.
    - Overlays: the fixed POV caption boxes at episode 1's pixel positions, two sliding speech bubbles ("aaya papaaa??", "thank youuu"), and the end-card title in Courier Prime with an orange glow.
-5. **Original score** ([`pipeline/score.py`](pipeline/score.py)), synthesised in code:
+5. **Audio (current):** the user-supplied track (30.05 s), with its 1.18 s of leading silence trimmed, looped with 0.4 s crossfades until the video ends (seam at about 28.5 s), a 1.4 s fade-out, mixed to about −14 LUFS.
+6. **Original score (earlier version, replaced)** ([`pipeline/score.py`](pipeline/score.py)), synthesised in code:
    - A soft pad and music box until 18.4 s.
    - Then a song at 80 BPM in D major (wavy flute lead, plucked chords, bass, synth tabla) that gets fuller from 46.8 s.
    - Synced comic sounds: static, a sigh slide with a thump, a "?" boing, dial clicks, a whoosh, a picture-snap ding, sparkles, a bite crunch.
