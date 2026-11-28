@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "watch-video scene log (one per chunk)",
+  "type": "object",
+  "required": [
+    "run_id",
+    "chunk_id",
+    "start",
+    "end",
+    "summary",
+    "scenes",
+    "events",
+    "quotes",
+    "highlight_candidates",
+    "changes_over_time",
+    "speaker_notes",
+    "uncertain"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "chunk_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "start": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "description": "3-6 sentences: what happens in this range, who does what, how it ends."
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end",
+          "setting",
+          "on_screen",
+          "what_happens",
+          "sheet_refs"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "continues_from_prev": {
+            "type": "boolean",
+            "default": false
+          },
+          "continues_to_next": {
+            "type": "boolean",
+            "default": false
+          },
+          "setting": {
+            "type": "string",
+            "description": "place / set / screen being shown"
+          },
+          "on_screen": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "people (names or speaker IDs) and key objects visible"
+          },
+          "what_happens": {
+            "type": "string",
+            "description": "actions and dialogue meaning, in time order, tied to timestamps"
+          },
+          "visual_details": {
+            "type": "string",
+            "description": "gestures, expressions, camera moves, cuts, props, clothing changes"
+          },
+          "on_screen_text": {
+            "type": "string",
+            "description": "verbatim text shown on screen (slides, captions, UI, signs)"
+          },
+          "mood": {
+            "type": "string"
+          },
+          "sheet_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer"
+            },
+            "description": "sheet ids this scene was seen on"
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "type",
+          "description",
+          "importance"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "t": {
+            "type": "number"
+          },
+          "type": {
+            "enum": [
+              "action",
+              "joke",
+              "reveal",
+              "topic_shift",
+              "quote",
+              "demo_step",
+              "visual_change",
+              "emotion",
+              "entrance_exit",
+              "other"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "speakers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "importance": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        }
+      }
+    },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end",
+          "speaker",
+          "text",
+          "why"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "highlight_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end",
+          "title",
+          "why",
+          "standalone",
+          "rank"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string",
+            "description": "why a viewer would care: payoff, emotion, surprise, insight, laugh"
+          },
+          "standalone": {
+            "type": "boolean",
+            "description": "makes sense without the rest of the video"
+          },
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "agent judgment, 5 = strongest"
+          }
+        }
+      }
+    },
+    "changes_over_time": {
+      "type": "string",
+      "description": "how the picture and situation evolve across this range (positions, mood, topic, screen state)"
+    },
+    "speaker_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "evidence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "possible_error": {
+            "type": "string",
+            "description": "e.g. 'S3 lines at 12:40-12:55 sound like S1' or 'S5 is the laugh track'"
+          },
+          "time_range": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "fix": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "t",
+              "name"
+            ],
+            "description": "machine-readable correction: the exact words as they appear in the transcript, their approximate start (source seconds), and who really says them",
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "t": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal_notes": {
+      "type": "string",
+      "description": "anything in this range that matters for the user's stated goal"
+    },
+    "uncertain": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

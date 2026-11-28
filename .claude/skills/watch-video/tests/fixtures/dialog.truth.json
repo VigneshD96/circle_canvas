@@ -1,0 +1,106 @@
+{
+ "file": "/Users/zoomrx/.claude/skills/watch-video/tests/fixtures/dialog.mp4",
+ "lines": [
+  {
+   "i": 0,
+   "voice": "Samantha",
+   "text": "Good morning everyone, and welcome back to the show. Today we are talking about coffee.",
+   "start": 0.0,
+   "speech_end": 4.961,
+   "end": 5.561
+  },
+  {
+   "i": 1,
+   "voice": "Daniel",
+   "text": "Thanks for having me. I have to admit, I drink about five cups a day.",
+   "start": 5.561,
+   "speech_end": 10.256,
+   "end": 10.856
+  },
+  {
+   "i": 2,
+   "voice": "Karen",
+   "text": "Five cups? That is honestly a lot. I stopped at two after my doctor gave me a warning.",
+   "start": 10.856,
+   "speech_end": 16.043,
+   "end": 16.643
+  },
+  {
+   "i": 3,
+   "voice": "Samantha",
+   "text": "So Daniel, what got you into coffee in the first place?",
+   "start": 16.643,
+   "speech_end": 19.897,
+   "end": 20.497
+  },
+  {
+   "i": 4,
+   "voice": "Daniel",
+   "text": "My grandfather owned a small roastery in Bristol. I grew up smelling fresh beans every morning.",
+   "start": 20.497,
+   "speech_end": 26.037,
+   "end": 26.637
+  },
+  {
+   "i": 5,
+   "voice": "Karen",
+   "text": "That sounds wonderful. I grew up with instant coffee and nothing else.",
+   "start": 26.637,
+   "speech_end": 30.563,
+   "end": 31.163
+  },
+  {
+   "i": 6,
+   "voice": "Samantha",
+   "text": "Let's talk about the science. Does caffeine really improve focus?",
+   "start": 31.163,
+   "speech_end": 34.975,
+   "end": 35.575
+  },
+  {
+   "i": 7,
+   "voice": "Daniel",
+   "text": "Yes, in moderate amounts. But the effect fades if you drink it all day.",
+   "start": 35.575,
+   "speech_end": 40.187,
+   "end": 40.787
+  },
+  {
+   "i": 8,
+   "voice": "Karen",
+   "text": "Exactly. And sleep matters more than any cup of coffee.",
+   "start": 40.787,
+   "speech_end": 44.151,
+   "end": 44.751
+  },
+  {
+   "i": 9,
+   "voice": "Samantha",
+   "text": "Great point. Thank you both for joining us today.",
+   "start": 44.751,
+   "speech_end": 47.603,
+   "end": 48.203
+  }
+ ],
+ "tail": {
+  "start": 48.203,
+  "end": 51.203
+ },
+ "speakers": [
+  "Daniel",
+  "Karen",
+  "Samantha"
+ ],
+ "cuts": [
+  5.561,
+  10.856,
+  16.643,
+  20.497,
+  26.637,
+  31.163,
+  35.575,
+  40.787,
+  44.751,
+  48.203
+ ]
+}

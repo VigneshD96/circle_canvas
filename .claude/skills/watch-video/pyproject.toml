@@ -1,0 +1,28 @@
+[project]
+name = "watch-video"
+version = "0.1.0"
+description = "Local video understanding pipeline for the /watch-video Claude Code skill"
+requires-python = "==3.12.*"
+dependencies = [
+    "parakeet-mlx>=0.5.3",
+    "pyannote.audio>=4.0",
+    "torch",
+    "torchaudio",
+    "silero-vad",
+    "transformers",
+    "scenedetect[opencv-headless]",
+    "pillow",
+    "numpy",
+    "soundfile",
+    "jsonschema",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
