@@ -1,16 +1,25 @@
 ---
-name: forgotten-joys-episode
+name: storybook-vignette-animation
 description: >
-  Make a new episode of the "Forgotten Little Joys of Life" series: a wordless, nostalgic, about-one-minute
-  vertical (9:16) storybook-cartoon reel about an Indian middle-class childhood memory, with a fixed
-  "POV / you were your ..." caption, a kid, a parent, a tiny joy at the end and a "forgotten / little joys of
-  life" end card. Covers the story beats, AI shot stills (OpenRouter image model), image-to-video clips
-  (HeyGen Video 1 at 480p), the edit with caption, speech bubbles and end card, music and a checked MP4.
-  Use whenever the user asks for a new episode, "another one like the chai / tv remote video", a nostalgic
-  Indian POV cartoon reel, or names this series or skill, even without saying "skill".
+  Make short vertical (9:16) videos in the "storybook vignette" look with limited 2D animation: hand-drawn
+  digital storybook cartoon on grainy off-white paper, soft irregular vignette, warm amber glow, red-orange
+  blush, huge white eyes with tiny black pupils, static camera, small character actions only. Default use is a
+  new episode of the "Forgotten Little Joys of Life" series (wordless nostalgic Indian childhood POV reel with a
+  fixed "POV / you were your ..." caption, a tiny joy at the end and an end card), but the same pipeline makes
+  any story in this look. Covers story beats, AI stills (OpenRouter image model), image-to-video clips (HeyGen
+  Video 1, 480p), caption, speech bubbles, end card, music and a checked MP4. Use whenever the user asks for a
+  storybook vignette or storybook-cartoon video, a new "Forgotten Little Joys" episode, "another one like the
+  chai / tv remote video", or names this skill.
 ---
 
-# Forgotten Little Joys: episode maker
+
+# Storybook vignette animation
+
+**Look:** storybook vignette illustration. **Motion:** limited 2D animation (static camera, small character
+actions). For a story outside the series, keep the style block, art bible and pipeline, and drop the series
+caption and end-card rules.
+
+## Default series: Forgotten Little Joys of Life
 
 One episode is one small childhood memory, told with pictures only, about 55–60 s long:
 **a problem at home → the kid does an errand → a tiny joy as the reward → end card.**
