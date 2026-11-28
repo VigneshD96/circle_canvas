@@ -1,0 +1,293 @@
+{
+ "title": "Episode 2: you were your dads tv remote",
+ "aspect_ratio": "9:16",
+ "image_model": "google/gemini-nano-banana-2.1",
+ "video": {
+  "model": "heygen/heygen-video-1",
+  "resolution": "480p"
+ },
+ "caption_lines": [
+  "you were your dads",
+  "tv remote"
+ ],
+ "characters": {
+  "kid": {
+   "look": "The boy is the same boy as in the references: about 9 years old, messy black hair, brown skin, red T-shirt, black shorts, barefoot."
+  },
+  "dad": {
+   "look": "Dad looks exactly like the character sheet: round spectacles, thick black moustache, side-parted black hair greying at the temples, light blue checked half-sleeve shirt, grey trousers.",
+   "sheet_prompt": "Character sheet. New character: the boy's DAD, an Indian man around 40, round spectacles, thick black moustache, short neat side-parted black hair with a little grey at the temples, warm brown skin with the same red blush, light blue checked half-sleeve shirt and grey trousers. Show him three times on one sheet: full body standing front view, seated on a maroon sofa relaxed, and a big head close-up smiling. Plain paper background, no text.",
+   "sheet_refs": [
+    "assets/style-refs/kid-full-body.jpg",
+    "assets/style-refs/kid-closeup.jpg"
+   ]
+  }
+ },
+ "bubbles": [
+  {
+   "shot": 10,
+   "at": 0.35,
+   "text": "aaya papaaa??",
+   "from": "left",
+   "tail": "left",
+   "x": 560,
+   "y": 640
+  },
+  {
+   "shot": 14,
+   "at": 3.458,
+   "text": "thank youuu",
+   "from": "right",
+   "tail": "left",
+   "x": 800,
+   "y": 600
+  }
+ ],
+ "end_card": {
+  "title_lines": [
+   "forgotten",
+   "little joys of life"
+  ],
+  "episode_label": null
+ },
+ "shots": [
+  {
+   "name": "problem: TV static still life",
+   "frames": 57,
+   "cast": [],
+   "image_prompt": "Still life close-up: an old wooden CRT television on a low wooden stand, a white crochet lace doily and a small blue vase with three flowers on top, the screen filled with grey static snow with a faint ghost of a cricket match. A steel tumbler of chai with steam on the stand in front. Warm living-room wall behind.",
+   "refs": [
+    "assets/style-refs/still-life.jpg"
+   ],
+   "motion_prompt": "The TV screen flickers with crackling grey static and the faint cricket picture wavers in and out; steam curls gently up from the steel tumbler of chai."
+  },
+  {
+   "name": "Dad reaches for the dial, can't",
+   "frames": 55,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Close-up insert: Dad's forearm with a brown leather wristwatch and a few arm hairs reaches up from the bottom of the frame toward the big round channel dial on the side panel of the wooden CRT TV, his outstretched fingers stopping short of the dial. Part of the static-filled screen visible at the left.",
+   "refs": [
+    "assets/style-refs/still-life.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man's forearm slides up from the bottom of the frame toward the round channel dial and his fingers stretch and wiggle, straining, but he cannot reach it; the TV static flickers."
+  },
+  {
+   "name": "Dad watching",
+   "frames": 39,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Medium close-up: Dad sitting on a maroon sofa with a white crochet cover on the backrest, a folded newspaper on his lap, looking off to the right at the TV with a flat, patient expression. Wall calendar behind him.",
+   "refs": [
+    "assets/style-refs/dad-sofa.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man on the sofa blinks slowly and breathes, his eyes glance toward the right, a tiny head tilt."
+  },
+  {
+   "name": "the picture dies",
+   "frames": 37,
+   "cast": [],
+   "image_prompt": "Close insert of an old CRT TV screen with a dark grey rounded bezel, the screen completely filled with grey and white static snow, horizontal roll lines. Warm wall around it.",
+   "refs": [
+    "assets/style-refs/still-life.jpg"
+   ],
+   "motion_prompt": "The TV screen is full of crackling grey static snow with rolling horizontal lines; the picture never returns."
+  },
+  {
+   "name": "comic still: Dad sighs",
+   "frames": 37,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Medium close-up on the maroon sofa: Dad slumped back, eyes closed, sighing with a small round 'o' mouth and a little puff of breath, eyebrows tilted in mild despair, newspaper on lap.",
+   "refs": [
+    "assets/style-refs/dad-sofa.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man sighs: his shoulders sink slowly and a small puff of breath drifts out; his eyes stay closed the whole time."
+  },
+  {
+   "name": "Kid peeks in",
+   "frames": 55,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "The boy peeks in from behind a doorway with a mustard curtain gathered on a rod, holding the door frame, curious wide eyes, a small hand-drawn question mark doodle above his head. Warm yellow room beyond.",
+   "refs": [
+    "assets/style-refs/kid-doorway.jpg",
+    "assets/style-refs/kid-full-body.jpg"
+   ],
+   "motion_prompt": "The boy leans in a little further from behind the door frame, blinks curiously and tilts his head; the little question mark bobs above his head; the curtain sways slightly."
+  },
+  {
+   "name": "POV: Kid turns the dial",
+   "frames": 115,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "POV close-up: the boy's small hand with red-blushed fingertips coming up from the bottom of the frame and gripping the big round cream-coloured channel dial of a wooden CRT TV, numbers 1 to 12 around the dial, a strip of static-filled screen at the top left.",
+   "refs": [
+    "assets/style-refs/pov-palm.jpg",
+    "assets/style-refs/kid-medium.jpg"
+   ],
+   "motion_prompt": "The boy's hand grips the round channel dial and turns it with three quick clicks, the dial rotating step by step; static flickers on the screen at the top."
+  },
+  {
+   "name": "Dad points up: the roof",
+   "frames": 54,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Medium close-up on the maroon sofa: Dad smiling and pointing his index finger straight up toward the ceiling (meaning the roof), looking to the left at someone off-screen, friendly raised eyebrows.",
+   "refs": [
+    "assets/style-refs/dad-sofa.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man smiles and gives two small upward jabs of his raised index finger, eyebrows lifting, as if saying 'go up to the roof'."
+  },
+  {
+   "name": "thumbs up, runs (song drops)",
+   "frames": 61,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "Full body: the boy standing in the curtained doorway giving a big thumbs up with a determined grin, leaning forward as if about to run off.",
+   "refs": [
+    "assets/style-refs/kid-full-body.jpg",
+    "assets/style-refs/kid-doorway.jpg"
+   ],
+   "motion_prompt": "The boy gives a firm thumbs up with a determined grin, then turns and dashes out of the frame to the right.",
+   "in_offset": 0.95
+  },
+  {
+   "name": "roof: twisting the antenna",
+   "frames": 62,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "Low-angle view on a flat Indian rooftop terrace at golden hour: the boy on tiptoe holding a tall metal TV antenna pole (a fishbone yagi aerial at the top) with both hands, shouting up and to the side with an open mouth, a black water tank and other rooftops behind, warm orange sunset sky.",
+   "refs": [
+    "assets/style-refs/kid-full-body.jpg",
+    "assets/style-refs/kid-medium.jpg"
+   ],
+   "motion_prompt": "The boy, on tiptoe, twists the antenna pole back and forth with both hands while shouting upward; the fishbone antenna at the top swivels left and right; his shirt flutters in the breeze.",
+   "transition_in": "dissolve3"
+  },
+  {
+   "name": "picture snaps back",
+   "frames": 49,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Over-the-shoulder view from behind Dad's head (back of his black hair, ears, spectacle arms, checked shirt shoulders at the bottom left) looking at the wooden CRT TV which now shows a clear, bright cricket match on a green field, a tiny sparkle on the screen.",
+   "refs": [
+    "assets/style-refs/dad-character-sheet.jpg",
+    "assets/style-refs/still-life.jpg"
+   ],
+   "motion_prompt": "The TV picture flickers with static for a moment and then snaps into a clear cricket match where the tiny players move; a small sparkle twinkles on the screen; the man's head stays still in the foreground.",
+   "in_offset": 0.3
+  },
+  {
+   "name": "triumph",
+   "frames": 53,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "On the rooftop at golden hour: the boy jumping with both fists raised in triumph, eyes squeezed shut in a huge grin, the TV antenna standing tall behind him, little hand-drawn action tick marks around him.",
+   "refs": [
+    "assets/style-refs/kid-full-body.jpg",
+    "assets/style-refs/kid-medium.jpg"
+   ],
+   "motion_prompt": "The boy jumps up and down once with both fists raised, squeezing his eyes shut in a huge grin; the little action tick marks around him pulse."
+  },
+  {
+   "name": "POV: kulfi lands in palm",
+   "frames": 111,
+   "cast": [
+    "kid",
+    "dad"
+   ],
+   "image_prompt": "POV close-up: the boy's open palm with red-blushed fingertips coming up from the bottom of the frame. From the top of the frame, Dad's hand with the leather wristwatch places a stick kulfi ice cream (cream and saffron coloured, studded with green pistachio bits, on a wooden stick) into the palm. Tiny white sparkles. Warm glowing background.",
+   "refs": [
+    "assets/style-refs/pov-palm.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man's hand from the top of the frame lowers the kulfi gently into the boy's open palm, lets go and slides back up out of frame; the boy's fingers curl slightly around the stick; tiny sparkles twinkle."
+  },
+  {
+   "name": "delight",
+   "frames": 110,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "Medium close-up on the rooftop at golden hour: the boy holding a stick kulfi ice cream in front of his chest with both hands, looking at it with huge delighted eyes and a little open smile, cheeks very blushed, a small sparkle on the kulfi.",
+   "refs": [
+    "assets/style-refs/kid-medium.jpg",
+    "assets/style-refs/kid-closeup.jpg"
+   ],
+   "motion_prompt": "The boy looks at the kulfi in his hands, his eyes widen with delight and he breaks into a big happy smile, rocking on his heels."
+  },
+  {
+   "name": "sharing kulfi on the sofa",
+   "frames": 61,
+   "cast": [
+    "kid",
+    "dad"
+   ],
+   "image_prompt": "Wide shot of the living room: Dad and the boy sitting side by side on the maroon sofa with the crochet cover, both eating stick kulfi ice creams and watching the TV off-screen, a soft bluish TV glow on their faces, the boy's bare feet dangling above the floor.",
+   "refs": [
+    "assets/style-refs/dad-sofa.jpg",
+    "assets/style-refs/kid-full-body.jpg"
+   ],
+   "motion_prompt": "The man and the boy sit side by side licking their kulfis while watching TV; the boy swings his dangling feet back and forth; soft TV light flickers on their faces."
+  },
+  {
+   "name": "Dad offers his own",
+   "frames": 112,
+   "cast": [
+    "dad"
+   ],
+   "image_prompt": "Medium close-up on the maroon sofa: Dad smiling warmly with his eyes, holding out his own stick kulfi ice cream toward someone off-screen at the left, offering it.",
+   "refs": [
+    "assets/style-refs/dad-sofa.jpg",
+    "assets/style-refs/dad-character-sheet.jpg"
+   ],
+   "motion_prompt": "The man smiles warmly, his eyes crinkling, and extends his own kulfi further forward toward someone at the left, offering it."
+  },
+  {
+   "name": "wonder close-up, first bite",
+   "frames": 170,
+   "cast": [
+    "kid"
+   ],
+   "image_prompt": "Big close-up: the boy's face filling the frame, holding a stick kulfi ice cream near his mouth, huge sparkling wide eyes fixed on it, mouth open in wonder, just about to take the first bite.",
+   "refs": [
+    "assets/style-refs/kid-closeup.jpg",
+    "assets/style-refs/kid-medium.jpg"
+   ],
+   "motion_prompt": "The boy stares at the kulfi with huge sparkling eyes, his mouth opens in wonder, then he takes a slow happy bite and closes his eyes in bliss, cheeks glowing."
+  },
+  {
+   "name": "end card",
+   "frames": 62,
+   "cast": [],
+   "image_prompt": "End-card illustration on warm off-white paper with fine horizontal grain: four stick kulfi ice creams (cream and saffron, green pistachio bits, wooden sticks) scattered at different angles around the edges, little saffron and pistachio crumbs and tiny sparkles, the CENTER of the image left completely empty for a title. Soft shadows under the kulfis.",
+   "refs": [
+    "assets/style-refs/pov-palm.jpg"
+   ],
+   "motion_prompt": "Tiny sparkles twinkle softly around the kulfis and the crumbs shimmer; everything else stays still and the centre stays empty.",
+   "transition_in": "fade12"
+  }
+ ],
+ "audio": {
+  "file": "music.opus",
+  "start": 19,
+  "fade_out": 1.6,
+  "lufs": -14,
+  "loop": false
+ }
+}
