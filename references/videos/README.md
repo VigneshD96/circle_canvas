@@ -14,3 +14,4 @@ ffmpeg -f concat -safe 0 -i list.txt -c copy dog_door.mp4
 | `dog_door/` | 109 s | 1080×1920, 30 fps | https://youtube.com/shorts/H6-VW-HNA8M |
 | `flooded_basement/` | 71 s | 1080×1920, 24 fps | user upload |
 | `potatoes/` | 52 s | 1080×1920, 30 fps | user upload ("Why Factories Shoot Potatoes Through Knives"), single file |
+| `soil_roof/` | 56 s | 1080×1920, 30 fps | user upload ("NEVER put soil on your roof"), single file |
