@@ -1,0 +1,36 @@
+---
+videomd: 1
+part: timeline
+shots: 21
+tokens: 1828
+---
+
+# Timeline
+
+One shot per line: `#<n> start-end (s) | key value | …`. A key ending in `~` is the tools' inference; keys without it are visible on screen or measured directly.
+`story` job in the story and the point · `seen` what is on screen · `act` acting (emotion, strength, face) · `camera` camera move · `overlay` overlays · `made~` how it was made (inferred) · `material~` where the material came from (inferred) · `remake` remake route · `flag` needs a second look
+Full detail for a shot is in `video/shots/<n>.md` (e.g. `video/shots/07.md`).
+
+```videomd-timeline
+#01 0.0-2.2 | story grab attention, A potato is about to hit knives … | seen Hook close-up: a potato racing toward a grid of knives in th… | camera smooth move | overlay subtitle, title | made~ 3D render 86% · runner-up AI-generated video 7% | material~ rendered by the creator | remake AI generation / 3D render · G1
+#02 2.2-4.5 | story grab attention, Speed stat | seen View through the blade grid as the potato approaches; '~40 m… | camera smooth move | overlay subtitle, title | made~ 3D render 86% · runner-up code / template render 7% | material~ rendered by the creator | remake AI generation / 3D render · G1
+#03 4.5-6.5 | story grab attention, If it jams… | seen Red X-ray cutaway of a potato jammed in the cutter. Style: C… | camera smooth move | overlay subtitle, title | made~ 3D render 84% · runner-up AI-generated video 8% | material~ rendered by the creator | remake AI generation / 3D render · G1
+#04 6.5-8.7 | story grab attention, 88 more in 10 seconds | seen Potatoes back up in the pipe; counter card ticks up to '88 p… | camera static (subject moves) | overlay subtitle, title | made~ 3D render 84% · runner-up AI-generated video 8% | material~ rendered by the creator | remake AI generation / 3D render · G1
+#05 8.7-11.0 | story It's a hydrocutter | seen Wide pull-back over the hydrocutter line in the factory hall… | camera smooth move | overlay subtitle, title, animated sticker / GIF | made~ 3D render 85% · runner-up AI-generated video 7% | material~ rendered by the creator | remake AI generation / 3D render · G2
+#06 11.0-12.9 | story How factories make fries | seen Wide over the line. Style: Clean 3D product-visualisation re… | camera smooth move | overlay subtitle, title, animated sticker / GIF | made~ 3D render 76% · runner-up AI-generated video 12% | material~ rendered by the creator | remake AI generation / 3D render · G2
+#07 12.9-14.9 | story Starts in a tank of water | seen Potatoes poured into a water tank. Style: Clean 3D product-v… | camera smooth move | overlay subtitle, title | made~ 3D render 85% · runner-up AI-generated video 7% | material~ rendered by the creator | remake AI generation / 3D render · G2
+#08 14.9-17.7 | story add information, A pump pushes them into a pipe | seen Teal pump motor and pipework pushing water and potatoes. Sty… | camera smooth move | overlay subtitle, title | made~ 3D render 81% · runner-up AI-generated video 10% | material~ rendered by the creator | remake AI generation / 3D render · G2
+#09 17.7-20.3 | story add information, The pipe narrows | seen Pipe narrows; yellow highlight glow traces the narrowing sec… | camera smooth move | overlay subtitle, text, title | made~ 3D render 83% · runner-up AI-generated video 8% | material~ rendered by the creator | remake AI generation / 3D render · G3
+#10 20.3-23.7 | story add information, Water speeds up and carries the… | seen Potato speeds up inside the pipe (cutaway). Style: Clean 3D … | camera static (subject moves) | overlay subtitle, title | made~ 3D render 89% · runner-up code / template render 7% | material~ rendered by the creator | remake AI generation / 3D render · G3
+#11 23.7-26.0 | story add information, Lines each potato up | seen Potato being centred by the narrowing pipe. Style: Clean 3D … | camera static (subject moves) | overlay subtitle, title | made~ 3D render 81% · runner-up AI-generated video 10% | material~ rendered by the creator | remake AI generation / 3D render · G3
+#12 26.0-28.2 | story add information, Nose first, dead centre | seen Potato travelling nose first, dead centre. Style: Clean 3D p… | camera static (subject moves) | overlay subtitle, title | made~ 3D render 87% · runner-up code / template render 6% | material~ rendered by the creator | remake AI generation / 3D render · G4
+#13 28.2-31.3 | story add information, A grid of thin blades | seen Cutter housing; yellow highlight on the grid of thin steel b… | camera smooth move | overlay subtitle, title | made~ 3D render 80% · runner-up AI-generated video 11% | material~ rendered by the creator | remake AI generation / 3D render · G4
+#14 31.3-33.3 | story First row slices | seen Macro cutaway: first row of blades slices the potato into sl… | camera smooth move | overlay subtitle, text, title, styled text | made~ 3D render 80% · runner-up AI-generated video 10% | material~ rendered by the creator | remake AI generation / 3D render · G4
+#15 33.3-36.2 | story Crossing row cuts sticks | seen Crossing row cuts each slab into sticks (exploded view). Sty… | camera smooth move | overlay subtitle, title | made~ 3D render 79% · runner-up AI-generated video 11% | material~ rendered by the creator | remake AI generation / 3D render · G5
+#16 36.2-39.2 | story Through faster than a blink | seen Potato bursts through the grid as a spray of fries. Style: C… | camera smooth move | overlay subtitle, title | made~ 3D render 85% · runner-up AI-generated video 7% | material~ rendered by the creator | remake AI generation / 3D render · G5
+#17 39.2-41.3 | story add information, The pipe widens | seen Pipe widens; fries fan out. Style: Clean 3D product-visualis… | camera smooth move | overlay subtitle, title, animated sticker / GIF | made~ 3D render 84% · runner-up AI-generated video 8% | material~ rendered by the creator | remake AI generation / 3D render · G5
+#18 41.3-44.5 | story add information, Fries land on a shaker | seen Fries land on a shaking screen. Style: Clean 3D product-visu… | camera smooth move | overlay subtitle, animated sticker / GIF | made~ 3D render 77% · runner-up AI-generated video 12% | material~ rendered by the creator | remake AI generation / 3D render · G6
+#19 44.5-46.5 | story add information, Water recirculates | seen Water runs back into the tank. Style: Clean 3D product-visua… | camera smooth move | overlay subtitle, title | made~ 3D render 83% · runner-up AI-generated video 8% | material~ rendered by the creator | remake AI generation / 3D render · G6
+#20 46.5-48.7 | story deliver the conclusion, The blades never move | seen Static blade grid as potatoes shoot through. Style: Clean 3D… | camera smooth move | overlay subtitle, title | made~ 3D render 85% · runner-up AI-generated video 7% | material~ rendered by the creator | remake AI generation / 3D render · G7
+#21 48.7-51.6 | story deliver the conclusion, Fast enough, a potato cu… | seen Final burst of fries from the cutter. Style: Clean 3D produc… | camera static (subject moves) | overlay subtitle, title | made~ 3D render 80% · runner-up AI-generated video 10% | material~ rendered by the creator | remake AI generation / 3D render · G7
+```

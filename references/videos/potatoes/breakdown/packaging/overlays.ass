@@ -1,0 +1,114 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: subtitle_1,Sans,70,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_2,Sans,66,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: subtitle_3,Sans,67,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: label_4,Sans,117,&H00FEFBF6,&H0000FFFF,&H00171109,&H00000000,0,0,0,0,100,100,0,-2,1,3,0,5,0,0,0,1
+Style: label_5,Sans,43,&H00E7E0DA,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,-0,1,0,0,5,0,0,0,1
+Style: subtitle_6,Sans,68,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_7,Sans,62,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-2,1,3,0,5,0,0,0,1
+Style: label_8,Sans,91,&H00FFFDFA,&H0000FFFF,&H00150F07,&H00000000,0,0,0,0,100,100,0,-2,1,2,0,5,0,0,0,1
+Style: label_9,Sans,46,&H00160F06,&H0000FFFF,&H00E6DFDB,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_10,Sans,63,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_11,Sans,71,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: subtitle_12,Sans,69,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: label_13,Sans,70,&H008A8681,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,-1,1,0,0,5,0,0,0,1
+Style: subtitle_14,Sans,61,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_15,Sans,70,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: subtitle_16,Sans,73,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-4,1,3,0,5,0,0,0,1
+Style: subtitle_17,Sans,62,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_18,Sans,82,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,4,0,5,0,0,0,1
+Style: subtitle_19,Sans,79,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_20,Sans,82,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,0,0,0,1
+Style: subtitle_21,Sans,65,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_22,Sans,61,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_23,Sans,69,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_24,Sans,70,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,1,1,3,0,5,0,0,0,1
+Style: label_25,Sans,28,&H00222321,&H0000FFFF,&H006B6B69,&H00000000,0,0,0,0,100,100,0,-11,1,1,0,5,0,0,0,1
+Style: subtitle_26,Sans,67,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: subtitle_27,Sans,59,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: subtitle_28,Sans,72,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_29,Sans,54,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,2,0,5,0,0,0,1
+Style: label_30,Sans,78,&H0020B1F0,&H0000FFFF,&H00604839,&H00604839,0,0,0,0,100,100,0,-0,3,8,0,5,0,0,0,1
+Style: label_31,Sans,67,&H00FFFCF8,&H0000FFFF,&H001A1610,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_32,Sans,61,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: huazi_33,Sans,241,&H00162437,&H0000FFFF,&H004D73A7,&H004D73A7,0,0,0,0,100,100,0,-0,3,8,0,5,0,0,0,1
+Style: subtitle_34,Sans,70,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: label_35,Sans,43,&H00C0B1A5,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,-1,1,0,0,5,0,0,0,1
+Style: subtitle_36,Sans,67,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_37,Sans,68,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_38,Sans,52,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,0,0,0,1
+Style: subtitle_39,Sans,76,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_40,Sans,71,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_41,Sans,70,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: label_42,Sans,75,&H001DB2F2,&H0000FFFF,&H0019130F,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_43,Sans,72,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_44,Sans,67,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_45,Sans,68,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+Style: label_46,Sans,44,&H00525455,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,-1,1,0,0,5,0,0,0,1
+Style: subtitle_47,Sans,72,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_48,Sans,71,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_49,Sans,69,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_50,Sans,67,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-1,1,3,0,5,0,0,0,1
+Style: subtitle_51,Sans,74,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,-0,1,3,0,5,0,0,0,1
+Style: subtitle_52,Sans,63,&H00FEFBF6,&H0000FFFF,&H00160F0B,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.70,subtitle_1,,0,0,0,,{\pos(491,1496)\fad(200,200)}This potato is about
+Dialogue: 0,0:00:01.00,0:00:01.80,subtitle_2,,0,0,0,,{\pos(490,1498)}to hit a grid
+Dialogue: 0,0:00:01.80,0:00:03.00,subtitle_3,,0,0,0,,{\pos(492,1498)}of knives at nearly
+Dialogue: 1,0:00:03.00,0:00:04.50,label_4,,0,0,0,,{\pos(295,430)}~40 mph
+Dialogue: 1,0:00:03.00,0:00:04.50,label_5,,0,0,0,,{\pos(258,530)}into the knives
+Dialogue: 0,0:00:03.00,0:00:04.50,subtitle_6,,0,0,0,,{\pos(488,1498)}forty miles an hour.
+Dialogue: 0,0:00:04.50,0:00:05.50,subtitle_7,,0,0,0,,{\pos(494,1499)}If it jams,
+Dialogue: 1,0:00:05.50,0:00:08.50,label_8,,0,0,0,,{\pos(334,437)\fad(200,200)}88 potatoes
+Dialogue: 1,0:00:05.50,0:00:08.50,label_9,,0,0,0,,{\pos(365,530)\fad(200,200)}backed up in 10 seconds
+Dialogue: 0,0:00:05.50,0:00:06.10,subtitle_10,,0,0,0,,{\pos(486,1498)}eighty-eight more pile
+Dialogue: 0,0:00:06.50,0:00:07.40,subtitle_11,,0,0,0,,{\pos(491,1497)}up behind it
+Dialogue: 0,0:00:07.50,0:00:08.10,subtitle_12,,0,0,0,,{\pos(492,1495)\fad(200,200)}in ten seconds.
+Dialogue: 1,0:00:08.50,0:00:09.70,label_13,,0,0,0,,{\pos(499,1498)}It's ahydrocutter,
+Dialogue: 0,0:00:09.90,0:00:11.00,subtitle_14,,0,0,0,,{\pos(494,1495)}and it's how factories
+Dialogue: 0,0:00:11.00,0:00:12.00,subtitle_15,,0,0,0,,{\pos(489,1496)}turn potatoes into
+Dialogue: 0,0:00:12.00,0:00:12.90,subtitle_16,,0,0,0,,{\pos(490,1497)}fries.
+Dialogue: 0,0:00:12.90,0:00:14.00,subtitle_17,,0,0,0,,{\pos(489,1495)}It starts in a tank
+Dialogue: 0,0:00:14.00,0:00:14.90,subtitle_18,,0,0,0,,{\pos(494,1496)}ofwater.
+Dialogue: 0,0:00:14.90,0:00:16.00,subtitle_19,,0,0,0,,{\pos(492,1502)}A pump pushes water
+Dialogue: 0,0:00:16.00,0:00:16.90,subtitle_20,,0,0,0,,{\pos(493,1496)}andpotatoesinto
+Dialogue: 0,0:00:17.50,0:00:19.30,subtitle_21,,0,0,0,,{\pos(495,1498)}Then the pipe narrows.
+Dialogue: 0,0:00:19.50,0:00:20.30,subtitle_22,,0,0,0,,{\pos(497,1497)\fad(200,200)}The water has to squeeze
+Dialogue: 0,0:00:20.50,0:00:21.10,subtitle_23,,0,0,0,,{\pos(486,1497)}through,so it speeds
+Dialogue: 0,0:00:21.50,0:00:22.40,subtitle_24,,0,0,0,,{\pos(493,1498)}up, and carries
+Dialogue: 1,0:00:22.50,0:00:23.10,label_25,,0,0,0,,{\pos(130,832)}8
+Dialogue: 0,0:00:22.50,0:00:23.10,subtitle_26,,0,0,0,,{\pos(489,1496)}the potato with it.
+Dialogue: 0,0:00:23.50,0:00:25.00,subtitle_27,,0,0,0,,{\pos(489,1495)}The narrowing also lines
+Dialogue: 0,0:00:25.00,0:00:26.00,subtitle_28,,0,0,0,,{\pos(490,1500)}each potato up,
+Dialogue: 0,0:00:26.00,0:00:27.60,subtitle_29,,0,0,0,,{\pos(491,1496)}nose first, dead centre.
+Dialogue: 1,0:00:28.00,0:00:28.90,label_30,,0,0,0,,{\pos(487,1497)\fscx60\fscy60\t(0,180,\fscx110\fscy110)\t(180,260,\fscx100\fscy100)}Waitingat the end
+Dialogue: 1,0:00:28.90,0:00:29.50,label_31,,0,0,0,,{\pos(489,1496)}is a grid
+Dialogue: 0,0:00:29.50,0:00:31.30,subtitle_32,,0,0,0,,{\pos(493,1494)}of thin steel blades.
+Dialogue: 1,0:00:31.30,0:00:31.70,huazi_33,,0,0,0,,{\pos(573,1109)\fad(200,200)}三
+Dialogue: 0,0:00:31.30,0:00:32.00,subtitle_34,,0,0,0,,{\pos(495,1497)}The first row
+Dialogue: 1,0:00:31.50,0:00:42.40,label_35,,0,0,0,,{\pos(183,119)\fscx60\fscy60\t(0,180,\fscx110\fscy110)\t(180,260,\fscx100\fscy100)}FrameFoundry
+Dialogue: 0,0:00:32.00,0:00:33.30,subtitle_36,,0,0,0,,{\pos(491,1498)}slices the potato.
+Dialogue: 0,0:00:33.30,0:00:34.50,subtitle_37,,0,0,0,,{\pos(494,1496)}The crossing row cuts
+Dialogue: 0,0:00:34.50,0:00:35.60,subtitle_38,,0,0,0,,{\pos(491,1495)}every slice into sticks.
+Dialogue: 0,0:00:36.00,0:00:37.00,subtitle_39,,0,0,0,,{\pos(485,1499)}Fasterthan you can
+Dialogue: 0,0:00:37.00,0:00:37.80,subtitle_40,,0,0,0,,{\pos(488,1496)}blink, the whole
+Dialogue: 0,0:00:38.00,0:00:38.60,subtitle_41,,0,0,0,,{\pos(490,1499)}potato is through.
+Dialogue: 1,0:00:39.00,0:00:40.00,label_42,,0,0,0,,{\pos(491,1496)}Pastthe knives,
+Dialogue: 0,0:00:40.00,0:00:41.30,subtitle_43,,0,0,0,,{\pos(493,1498)}the pipe widens,
+Dialogue: 0,0:00:41.30,0:00:42.40,subtitle_44,,0,0,0,,{\pos(491,1497)}everything slows down,
+Dialogue: 0,0:00:42.40,0:00:43.30,subtitle_45,,0,0,0,,{\pos(491,1493)}and the fries land
+Dialogue: 1,0:00:42.50,0:00:51.60,label_46,,0,0,0,,{\pos(186,120)\fad(200,200)}FrameFoundry
+Dialogue: 0,0:00:43.30,0:00:44.50,subtitle_47,,0,0,0,,{\pos(492,1499)}on a shaking screen
+Dialogue: 0,0:00:44.50,0:00:45.40,subtitle_48,,0,0,0,,{\pos(494,1495)}while the water runs
+Dialogue: 0,0:00:45.40,0:00:46.50,subtitle_49,,0,0,0,,{\pos(490,1493)}back to the tank.
+Dialogue: 0,0:00:46.50,0:00:48.40,subtitle_50,,0,0,0,,{\pos(494,1497)}The blades never move.
+Dialogue: 0,0:00:48.50,0:00:49.10,subtitle_51,,0,0,0,,{\pos(490,1497)\fad(200,200)}Fastenough,a potato
+Dialogue: 0,0:00:49.50,0:00:51.20,subtitle_52,,0,0,0,,{\pos(489,1495)}cuts itself.

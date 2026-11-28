@@ -1,0 +1,2798 @@
+{
+  "text": [
+    {
+      "id": "text_001",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 0.0,
+      "t1": 1.6,
+      "text": "MILDLY ELSEWHERE",
+      "lines": [
+        "MILDLY ELSEWHERE"
+      ],
+      "bbox": [
+        0.5972,
+        0.1312,
+        0.3222,
+        0.0211
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#d3d6d7",
+        "multicolor": true,
+        "highlight_name": "grey",
+        "weight": 0.107,
+        "highlight_timing": "spoken"
+      },
+      "style_zh": "white text, keywords highlighted in grey, line height 1.9% (about 37px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_002",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 0.0,
+      "t1": 1.6,
+      "text": "He flooded his/own basement,",
+      "lines": [
+        "He flooded his",
+        "own basement,"
+      ],
+      "bbox": [
+        0.2139,
+        0.6477,
+        0.5639,
+        0.107
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.065
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.3% (about 103px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_003",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 2.0,
+      "t1": 2.1,
+      "text": "MIEE",
+      "lines": [
+        "MIEE"
+      ],
+      "bbox": [
+        0.6014,
+        0.1328,
+        0.3139,
+        0.0195
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#d3d6d7",
+        "multicolor": true,
+        "highlight_name": "grey",
+        "weight": 0.076
+      },
+      "style_zh": "white text, keywords highlighted in grey, line height 1.9% (about 37px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_004",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 1.9,
+      "t1": 3.1,
+      "text": "the day before/the river could.",
+      "lines": [
+        "the day before",
+        "the river could."
+      ],
+      "bbox": [
+        0.2181,
+        0.6469,
+        0.5514,
+        0.1086
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.064
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.6% (about 107px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_005",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 2.3,
+      "t1": 10.4,
+      "text": "MILDLY ELSEWHERE",
+      "lines": [
+        "MILDLY ELSEWHERE"
+      ],
+      "bbox": [
+        0.5986,
+        0.1297,
+        0.3209,
+        0.0242
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#d3d6d7",
+        "weight": 0.13
+      },
+      "style_zh": "white text, line height 1.9% (about 37px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": true,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_006",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 3.5,
+      "t1": 4.9,
+      "text": "The whole street/is stacking",
+      "lines": [
+        "The whole street",
+        "is stacking"
+      ],
+      "bbox": [
+        0.1889,
+        0.6477,
+        0.6208,
+        0.1109
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.055
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 6.0% (about 115px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_007",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 4.9,
+      "t1": 6.1,
+      "text": "sandbags,/and he's running",
+      "lines": [
+        "sandbags,",
+        "and he's running"
+      ],
+      "bbox": [
+        0.1903,
+        0.6469,
+        0.6153,
+        0.111
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.05
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 6.1% (about 117px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_008",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 6.3,
+      "t1": 7.6,
+      "text": "a hose into/his basement.",
+      "lines": [
+        "a hose into",
+        "his basement."
+      ],
+      "bbox": [
+        0.2389,
+        0.6492,
+        0.5167,
+        0.1016
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.066
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.1% (about 98px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_009",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 8.0,
+      "t1": 9.3,
+      "text": "His neighbor/has three pumps",
+      "lines": [
+        "His neighbor",
+        "has three pumps"
+      ],
+      "bbox": [
+        0.1861,
+        0.6461,
+        0.625,
+        0.1148
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.058
+      },
+      "style_zh": "white text, black outline, line height 6.0% (about 115px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_010",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 9.5,
+      "t1": 10.6,
+      "text": "going/and yells over,",
+      "lines": [
+        "going",
+        "and yells over,"
+      ],
+      "bbox": [
+        0.225,
+        0.6484,
+        0.5431,
+        0.1095
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.06
+      },
+      "style_zh": "white text, black outline, line height 5.9% (about 114px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": true,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_011",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 10.5,
+      "t1": 12.5,
+      "text": "SEWHERE",
+      "lines": [
+        "SEWHERE"
+      ],
+      "bbox": [
+        0.75,
+        0.1305,
+        0.1653,
+        0.0211
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#d3d6d7",
+        "weight": 0.153
+      },
+      "style_zh": "white text, line height 1.9% (about 37px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_012",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 10.9,
+      "t1": 12.2,
+      "text": "\"Flood's not till/tomorrow, pal.",
+      "lines": [
+        "\"Flood's not till",
+        "tomorrow, pal."
+      ],
+      "bbox": [
+        0.2292,
+        0.6469,
+        0.5445,
+        0.1078
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.066,
+        "highlight_timing": "spoken"
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.3% (about 103px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_014",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 12.5,
+      "t1": 13.5,
+      "text": "You're early!\"",
+      "lines": [
+        "You're early!\""
+      ],
+      "bbox": [
+        0.2444,
+        0.6945,
+        0.5083,
+        0.0633
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "box": true,
+        "box_name": "black",
+        "box_color": "#2c250e",
+        "weight": 0.053
+      },
+      "style_zh": "white text, black outline, black box, line height 6.2% (about 120px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": true,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_015",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 13.5,
+      "t1": 14.1,
+      "text": "But he/carries the couch",
+      "lines": [
+        "But he",
+        "carries the couch"
+      ],
+      "bbox": [
+        0.1847,
+        0.6469,
+        0.6306,
+        0.1039
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.072
+      },
+      "style_zh": "white text, black outline, line height 5.1% (about 98px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_016",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 14.5,
+      "t1": 15.4,
+      "text": "upstairs,",
+      "lines": [
+        "upstairs,"
+      ],
+      "bbox": [
+        0.3319,
+        0.6977,
+        0.3292,
+        0.0617
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "brown",
+        "weight": 0.061
+      },
+      "style_zh": "white text, black outline, keywords highlighted in brown, line height 6.0% (about 115px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_017",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 15.5,
+      "t1": 16.5,
+      "text": "shuts off/the power,",
+      "lines": [
+        "shuts off",
+        "the power,"
+      ],
+      "bbox": [
+        0.2944,
+        0.6461,
+        0.4028,
+        0.1125
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.052,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in orange, line height 5.8% (about 111px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_018",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 16.5,
+      "t1": 18.5,
+      "text": "and fills it to/the top step.",
+      "lines": [
+        "and fills it to",
+        "the top step."
+      ],
+      "bbox": [
+        0.2611,
+        0.6484,
+        0.4639,
+        0.1094
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.058,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.6% (about 108px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_019",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 18.5,
+      "t1": 19.7,
+      "text": "By dinner,/the whole street",
+      "lines": [
+        "By dinner,",
+        "the whole street"
+      ],
+      "bbox": [
+        0.2056,
+        0.6484,
+        0.5903,
+        0.1016
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.064
+      },
+      "style_zh": "white text, black outline, line height 5.3% (about 103px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_020",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 20.0,
+      "t1": 21.6,
+      "text": "is calling it/the indoor pool.",
+      "lines": [
+        "is calling it",
+        "the indoor pool."
+      ],
+      "bbox": [
+        0.2069,
+        0.6461,
+        0.5778,
+        0.1094
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "brown",
+        "weight": 0.05
+      },
+      "style_zh": "white text, black outline, keywords highlighted in brown, line height 5.9% (about 114px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "pop_out",
+        "kind_zh": "shrink out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_021",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 20.0,
+      "t1": 21.2,
+      "text": "the indoor pool.",
+      "lines": [
+        "the indoor pool."
+      ],
+      "bbox": [
+        0.2042,
+        0.6469,
+        0.5833,
+        0.1094
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#2a1e07",
+        "stroke_name": "black",
+        "stroke": "#211304",
+        "stroke_ratio": 0.025,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.061
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 5.8% (about 112px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": {
+        "line": "text_020",
+        "text": "is calling it/the indoor pool.",
+        "rel": "during",
+        "dt": 0.0,
+        "word": "theindoorpool"
+      },
+      "persistent": null
+    },
+    {
+      "id": "text_022",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 22.0,
+      "t1": 23.0,
+      "text": "Then the river",
+      "lines": [
+        "Then the river"
+      ],
+      "bbox": [
+        0.2403,
+        0.6461,
+        0.5194,
+        0.0547
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.057
+      },
+      "style_zh": "white text, black outline, line height 5.3% (about 101px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_023",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 22.0,
+      "t1": 22.8,
+      "text": "comes over",
+      "lines": [
+        "comes over"
+      ],
+      "bbox": [
+        0.2861,
+        0.707,
+        0.4333,
+        0.0406
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f7faf9",
+        "stroke_name": "black",
+        "stroke": "#020703",
+        "stroke_ratio": 0.026,
+        "weight": 0.075
+      },
+      "style_zh": "white text, black outline, line height 4.0% (about 76px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_024",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 23.0,
+      "t1": 23.8,
+      "text": "the bank,",
+      "lines": [
+        "the bank,"
+      ],
+      "bbox": [
+        0.3181,
+        0.6953,
+        0.3528,
+        0.0586
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.058
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.7% (about 109px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_025",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 23.8,
+      "t1": 24.1,
+      "text": "and both houses",
+      "lines": [
+        "and both houses"
+      ],
+      "bbox": [
+        0.1944,
+        0.6508,
+        0.6125,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.072,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.1% (about 98px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_026",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 23.9,
+      "t1": 24.1,
+      "text": "end up",
+      "lines": [
+        "end up"
+      ],
+      "bbox": [
+        0.3375,
+        0.6945,
+        0.3097,
+        0.0648
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.056
+      },
+      "style_zh": "white text, black outline, line height 6.5% (about 124px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_027",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 24.5,
+      "t1": 24.6,
+      "text": "and both houses/end up",
+      "lines": [
+        "and both houses",
+        "end up"
+      ],
+      "bbox": [
+        0.1931,
+        0.6484,
+        0.6111,
+        0.1102
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "green",
+        "weight": 0.064
+      },
+      "style_zh": "white text, black outline, keywords highlighted in green, line height 5.7% (about 110px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_028",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 25.0,
+      "t1": 26.5,
+      "text": "in a brown lake.",
+      "lines": [
+        "in a brown lake."
+      ],
+      "bbox": [
+        0.2111,
+        0.7008,
+        0.5708,
+        0.0485
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.075
+      },
+      "style_zh": "white text, black outline, line height 4.8% (about 93px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_029",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 26.5,
+      "t1": 27.5,
+      "text": "Next door,/the pumps",
+      "lines": [
+        "Next door,",
+        "the pumps"
+      ],
+      "bbox": [
+        0.2958,
+        0.6469,
+        0.4042,
+        0.1102
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.057
+      },
+      "style_zh": "white text, black outline, line height 5.8% (about 111px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_030",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 27.5,
+      "t1": 28.1,
+      "text": "are winning,/and the neighbor",
+      "lines": [
+        "are winning,",
+        "and the neighbor"
+      ],
+      "bbox": [
+        0.1861,
+        0.6469,
+        0.6278,
+        0.1086
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.057
+      },
+      "style_zh": "white text, black outline, line height 5.7% (about 110px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_032",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 28.5,
+      "t1": 28.6,
+      "text": "yells,",
+      "lines": [
+        "yells,"
+      ],
+      "bbox": [
+        0.3917,
+        0.6492,
+        0.2111,
+        0.0578
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.063,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.8% (about 111px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_031",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 28.5,
+      "t1": 30.5,
+      "text": "yells,/\"How's the pool?\"",
+      "lines": [
+        "yells,",
+        "\"How's the pool?\""
+      ],
+      "bbox": [
+        0.1681,
+        0.6461,
+        0.6597,
+        0.1117
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.06
+      },
+      "style_zh": "white text, black outline, line height 6.0% (about 116px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_033",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 30.5,
+      "t1": 31.5,
+      "text": "But by sunset,",
+      "lines": [
+        "But by sunset,"
+      ],
+      "bbox": [
+        0.2306,
+        0.693,
+        0.5333,
+        0.068
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "box": true,
+        "box_name": "brown",
+        "box_color": "#573e38",
+        "weight": 0.05
+      },
+      "style_zh": "white text, black outline, brown box, line height 6.6% (about 126px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_034",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 31.5,
+      "t1": 32.8,
+      "text": "there's a crack/in the neighbor's",
+      "lines": [
+        "there's a crack",
+        "in the neighbor's"
+      ],
+      "bbox": [
+        0.1917,
+        0.6492,
+        0.6167,
+        0.1071
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.062
+      },
+      "style_zh": "white text, black outline, line height 5.4% (about 103px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_035",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 33.0,
+      "t1": 33.1,
+      "text": "wall,",
+      "lines": [
+        "wall,"
+      ],
+      "bbox": [
+        0.4014,
+        0.6977,
+        0.1847,
+        0.0555
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.054
+      },
+      "style_zh": "white text, black outline, line height 5.5% (about 107px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_036",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 33.3,
+      "t1": 34.9,
+      "text": "thin as a hair.",
+      "lines": [
+        "thin as a hair."
+      ],
+      "bbox": [
+        0.2389,
+        0.6984,
+        0.5069,
+        0.0523
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.069,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_037",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 34.9,
+      "t1": 35.1,
+      "text": "By midnight,",
+      "lines": [
+        "By midnight,"
+      ],
+      "bbox": [
+        0.2639,
+        0.6977,
+        0.4625,
+        0.0617
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.059
+      },
+      "style_zh": "white text, black outline, line height 6.2% (about 118px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_038",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 35.5,
+      "t1": 37.3,
+      "text": "it's wide enough/for a finger,",
+      "lines": [
+        "it's wide enough",
+        "for a finger,"
+      ],
+      "bbox": [
+        0.1986,
+        0.6453,
+        0.6,
+        0.1133
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.058
+      },
+      "style_zh": "white text, black outline, line height 6.2% (about 118px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_039",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 37.3,
+      "t1": 38.6,
+      "text": "and the wall",
+      "lines": [
+        "and the wall"
+      ],
+      "bbox": [
+        0.2486,
+        0.6484,
+        0.4972,
+        0.1079
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.059
+      },
+      "style_zh": "white text, black outline, line height 4.9% (about 94px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_040",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 38.0,
+      "t1": 38.6,
+      "text": "is bending in.",
+      "lines": [
+        "is bending in."
+      ],
+      "bbox": [
+        0.2458,
+        0.6945,
+        0.4986,
+        0.0641
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.052
+      },
+      "style_zh": "white text, black outline, line height 6.4% (about 122px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_041",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 39.0,
+      "t1": 40.1,
+      "text": "You see,/soaked dirt",
+      "lines": [
+        "You see,",
+        "soaked dirt"
+      ],
+      "bbox": [
+        0.2903,
+        0.6461,
+        0.4222,
+        0.1055
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.069
+      },
+      "style_zh": "white text, black outline, line height 5.5% (about 107px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_042",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 40.5,
+      "t1": 41.3,
+      "text": "is heavy,",
+      "lines": [
+        "is heavy,"
+      ],
+      "bbox": [
+        0.3194,
+        0.6961,
+        0.3486,
+        0.0625
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "grey",
+        "weight": 0.049,
+        "highlight_timing": "spoken",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in grey, line height 6.2% (about 118px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_043",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 41.4,
+      "t1": 42.6,
+      "text": "and it leans on/a basement wall",
+      "lines": [
+        "and it leans on",
+        "a basement wall"
+      ],
+      "bbox": [
+        0.1972,
+        0.6492,
+        0.6028,
+        0.1016
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.072
+      },
+      "style_zh": "white text, black outline, line height 5.1% (about 98px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_044",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 42.8,
+      "t1": 44.5,
+      "text": "like a parked/truck.",
+      "lines": [
+        "like a parked",
+        "truck."
+      ],
+      "bbox": [
+        0.2583,
+        0.6469,
+        0.4806,
+        0.1047
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.06
+      },
+      "style_zh": "white text, black outline, line height 5.4% (about 104px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_045",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 44.5,
+      "t1": 45.3,
+      "text": "Ever squeezed/an empty",
+      "lines": [
+        "Ever squeezed",
+        "an empty"
+      ],
+      "bbox": [
+        0.2208,
+        0.6469,
+        0.5597,
+        0.1101
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.064,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in orange, line height 5.7% (about 109px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_046",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 45.5,
+      "t1": 46.4,
+      "text": "soda can?",
+      "lines": [
+        "soda can?"
+      ],
+      "bbox": [
+        0.2986,
+        0.6945,
+        0.3986,
+        0.0609
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.061,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in orange, line height 6.0% (about 115px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_047",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 46.4,
+      "t1": 47.3,
+      "text": "It crumples.",
+      "lines": [
+        "It crumples."
+      ],
+      "bbox": [
+        0.2778,
+        0.6953,
+        0.4306,
+        0.0617
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.061,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in orange, line height 6.0% (about 115px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_048",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 47.3,
+      "t1": 48.7,
+      "text": "A full one/won't give.",
+      "lines": [
+        "A full one",
+        "won't give."
+      ],
+      "bbox": [
+        0.2917,
+        0.6469,
+        0.4139,
+        0.1133
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.062,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, keywords highlighted in orange, line height 5.9% (about 113px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_049",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 49.0,
+      "t1": 50.1,
+      "text": "With water inside",
+      "lines": [
+        "With water inside"
+      ],
+      "bbox": [
+        0.1833,
+        0.6492,
+        0.6306,
+        0.1086
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.06
+      },
+      "style_zh": "white text, black outline, line height 4.8% (about 93px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_050",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 49.5,
+      "t1": 50.1,
+      "text": "pushing back",
+      "lines": [
+        "pushing back"
+      ],
+      "bbox": [
+        0.2472,
+        0.6969,
+        0.5056,
+        0.0609
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.06,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 6.1% (about 117px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_051",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 50.5,
+      "t1": 51.6,
+      "text": "just as hard,",
+      "lines": [
+        "just as hard,"
+      ],
+      "bbox": [
+        0.2625,
+        0.6984,
+        0.4625,
+        0.0578
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.053
+      },
+      "style_zh": "white text, black outline, line height 5.6% (about 108px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_052",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 51.8,
+      "t1": 52.6,
+      "text": "the indoor pool's/walls feel",
+      "lines": [
+        "the indoor pool's",
+        "walls feel"
+      ],
+      "bbox": [
+        0.1903,
+        0.6461,
+        0.6167,
+        0.1047
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.059
+      },
+      "style_zh": "white text, black outline, line height 5.6% (about 108px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_053",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 53.0,
+      "t1": 54.8,
+      "text": "almost nothing.",
+      "lines": [
+        "almost nothing."
+      ],
+      "bbox": [
+        0.2125,
+        0.6922,
+        0.5597,
+        0.0664
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.046
+      },
+      "style_zh": "white text, black outline, line height 6.4% (about 124px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_054",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 54.8,
+      "t1": 55.9,
+      "text": "Flood guides/really say",
+      "lines": [
+        "Flood guides",
+        "really say"
+      ],
+      "bbox": [
+        0.2569,
+        0.6445,
+        0.4847,
+        0.1149
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.055,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 6.2% (about 120px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_055",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 56.0,
+      "t1": 56.8,
+      "text": "to let the water in",
+      "lines": [
+        "to let the water in"
+      ],
+      "bbox": [
+        0.1819,
+        0.7,
+        0.6306,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.067
+      },
+      "style_zh": "white text, black outline, line height 5.0% (about 95px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_056",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 57.0,
+      "t1": 57.7,
+      "text": "and not pump",
+      "lines": [
+        "and not pump"
+      ],
+      "bbox": [
+        0.2417,
+        0.6992,
+        0.5139,
+        0.057
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.058
+      },
+      "style_zh": "white text, black outline, line height 5.7% (about 109px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_057",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 58.0,
+      "t1": 59.1,
+      "text": "until the/river drops.",
+      "lines": [
+        "until the",
+        "river drops."
+      ],
+      "bbox": [
+        0.2861,
+        0.6492,
+        0.4069,
+        0.1047
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.06,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_058",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 59.0,
+      "t1": 59.1,
+      "text": "river drops.",
+      "lines": [
+        "river drops."
+      ],
+      "bbox": [
+        0.2861,
+        0.6984,
+        0.4069,
+        0.0555
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.065
+      },
+      "style_zh": "white text, black outline, line height 5.5% (about 107px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_059",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 59.5,
+      "t1": 60.1,
+      "text": "A week later,",
+      "lines": [
+        "A week later,"
+      ],
+      "bbox": [
+        0.2556,
+        0.6977,
+        0.4819,
+        0.0555
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.065
+      },
+      "style_zh": "white text, black outline, line height 5.5% (about 107px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_060",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 60.5,
+      "t1": 61.6,
+      "text": "he drains/his pool,",
+      "lines": [
+        "he drains",
+        "his pool,"
+      ],
+      "bbox": [
+        0.3181,
+        0.643,
+        0.361,
+        0.1156
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.059,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.9% (about 113px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_061",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 62.0,
+      "t1": 62.6,
+      "text": "nice and slow,",
+      "lines": [
+        "nice and slow,"
+      ],
+      "bbox": [
+        0.2333,
+        0.6969,
+        0.5278,
+        0.0578
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.052
+      },
+      "style_zh": "white text, black outline, line height 5.7% (about 110px)",
+      "anim_in": {
+        "kind": "slide",
+        "kind_zh": "slide in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_062",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 63.0,
+      "t1": 63.9,
+      "text": "off a wet floor",
+      "lines": [
+        "off a wet floor"
+      ],
+      "bbox": [
+        0.2472,
+        0.6984,
+        0.5056,
+        0.0531
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "brown",
+        "weight": 0.062,
+        "highlight_timing": "spoken"
+      },
+      "style_zh": "white text, black outline, keywords highlighted in brown, line height 5.3% (about 101px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_063",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 63.9,
+      "t1": 66.0,
+      "text": "and four/straight walls.",
+      "lines": [
+        "and four",
+        "straight walls."
+      ],
+      "bbox": [
+        0.2458,
+        0.6469,
+        0.5069,
+        0.1085
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "brown",
+        "weight": 0.065,
+        "highlight_timing": "spoken"
+      },
+      "style_zh": "white text, black outline, keywords highlighted in brown, line height 5.5% (about 105px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_064",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 66.0,
+      "t1": 66.8,
+      "text": "Next door,/the neighbor",
+      "lines": [
+        "Next door,",
+        "the neighbor"
+      ],
+      "bbox": [
+        0.2597,
+        0.6469,
+        0.4778,
+        0.1102
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "multicolor": true,
+        "highlight_name": "brown",
+        "weight": 0.063
+      },
+      "style_zh": "white text, black outline, keywords highlighted in brown, line height 5.8% (about 112px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_065",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 67.0,
+      "t1": 68.1,
+      "text": "is pumping/his out too,",
+      "lines": [
+        "is pumping",
+        "his out too,"
+      ],
+      "bbox": [
+        0.2889,
+        0.6477,
+        0.4139,
+        0.1086
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.06
+      },
+      "style_zh": "white text, black outline, line height 5.8% (about 111px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_066",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 68.5,
+      "t1": 69.5,
+      "text": "except/his kitchen",
+      "lines": [
+        "except",
+        "his kitchen"
+      ],
+      "bbox": [
+        0.2972,
+        0.6508,
+        0.4042,
+        0.1
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "weight": 0.069,
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015
+      },
+      "style_zh": "white text, black outline, line height 5.2% (about 100px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_067",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 69.5,
+      "t1": 71.1,
+      "text": "is down there/with it.",
+      "lines": [
+        "is down there",
+        "with it."
+      ],
+      "bbox": [
+        0.2486,
+        0.6477,
+        0.5014,
+        0.1047
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f2f9f5",
+        "stroke_name": "black",
+        "stroke": "#0a1804",
+        "stroke_ratio": 0.015,
+        "weight": 0.056
+      },
+      "style_zh": "white text, black outline, line height 5.3% (about 102px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    }
+  ],
+  "stickers": [],
+  "sfx": [
+    {
+      "t": 0.05,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"MILDLY ELSEWHERE\" appears",
+        "dt": -0.05,
+        "ref": "text_001"
+      }
+    },
+    {
+      "t": 0.75,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 20.69,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 21.11,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 22.13,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"Then the river\" appears",
+        "dt": -0.13,
+        "ref": "text_022"
+      }
+    },
+    {
+      "t": 26.12,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 27.25,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "cut",
+        "what": "cut",
+        "dt": -0.193,
+        "ref": null
+      }
+    },
+    {
+      "t": 30.38,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"But by sunset,\" appears",
+        "dt": 0.12,
+        "ref": "text_033"
+      }
+    },
+    {
+      "t": 31.47,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"there's a crack \" appears",
+        "dt": 0.03,
+        "ref": "text_034"
+      }
+    },
+    {
+      "t": 32.25,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 33.17,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"thin as a hair.\" appears",
+        "dt": 0.13,
+        "ref": "text_036"
+      }
+    },
+    {
+      "t": 35.34,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"it's wide enough\" appears",
+        "dt": 0.16,
+        "ref": "text_038"
+      }
+    },
+    {
+      "t": 36.81,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 37.19,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"and the wall\" appears",
+        "dt": 0.11,
+        "ref": "text_039"
+      }
+    },
+    {
+      "t": 38.15,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"is bending in.\" appears",
+        "dt": -0.15,
+        "ref": "text_040"
+      }
+    },
+    {
+      "t": 43.4,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 46.14,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 49.04,
+      "type": "ding",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"With water insid\" appears",
+        "dt": -0.04,
+        "ref": "text_049"
+      }
+    },
+    {
+      "t": 54.18,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 61.09,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 62.27,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 62.96,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"off a wet floor\" appears",
+        "dt": 0.04,
+        "ref": "text_062"
+      }
+    },
+    {
+      "t": 63.44,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 63.92,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"and four straigh\" appears",
+        "dt": -0.02,
+        "ref": "text_063"
+      }
+    }
+  ]
+}

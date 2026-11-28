@@ -1,0 +1,2322 @@
+{
+  "text": [
+    {
+      "id": "text_002",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 0.0,
+      "t1": 0.7,
+      "text": "This potato is about",
+      "lines": [
+        "This potato is about"
+      ],
+      "bbox": [
+        0.1167,
+        0.7539,
+        0.675,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.116
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.0% (about 97px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_003",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 1.0,
+      "t1": 1.8,
+      "text": "to hit a grid",
+      "lines": [
+        "to hit a grid"
+      ],
+      "bbox": [
+        0.2458,
+        0.7547,
+        0.4167,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.115
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.0% (about 97px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_004",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 1.8,
+      "t1": 3.0,
+      "text": "of knives at nearly",
+      "lines": [
+        "of knives at nearly"
+      ],
+      "bbox": [
+        0.1458,
+        0.7547,
+        0.6194,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.116
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.1% (about 98px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_005",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 3.0,
+      "t1": 4.5,
+      "text": "~40 mph",
+      "lines": [
+        "~40 mph"
+      ],
+      "bbox": [
+        0.0736,
+        0.182,
+        0.3986,
+        0.0836
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#091117",
+        "stroke_ratio": 0.024,
+        "weight": 0.102
+      },
+      "style_zh": "white text, black outline, line height 8.4% (about 161px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_006",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 3.0,
+      "t1": 4.5,
+      "text": "into the knives",
+      "lines": [
+        "into the knives"
+      ],
+      "bbox": [
+        0.0833,
+        0.2609,
+        0.3111,
+        0.0305
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#dae0e7",
+        "weight": 0.07
+      },
+      "style_zh": "white text, line height 3.0% (about 59px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_007",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 3.0,
+      "t1": 4.5,
+      "text": "forty miles an hour.",
+      "lines": [
+        "forty miles an hour."
+      ],
+      "bbox": [
+        0.1222,
+        0.7547,
+        0.6584,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.127
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.5% (about 87px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_008",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 4.5,
+      "t1": 5.5,
+      "text": "If it jams,",
+      "lines": [
+        "If it jams,"
+      ],
+      "bbox": [
+        0.2931,
+        0.7547,
+        0.3292,
+        0.0523
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.113
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_009",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 5.5,
+      "t1": 8.5,
+      "text": "88 potatoes",
+      "lines": [
+        "88 potatoes"
+      ],
+      "bbox": [
+        0.0667,
+        0.1844,
+        0.4847,
+        0.0859
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#fafdff",
+        "stroke_name": "black",
+        "stroke": "#070f15",
+        "stroke_ratio": 0.026,
+        "weight": 0.091
+      },
+      "style_zh": "white text, black outline, line height 8.2% (about 157px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_010",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 5.5,
+      "t1": 8.5,
+      "text": "backed up in 10 seconds",
+      "lines": [
+        "backed up in 10 seconds"
+      ],
+      "bbox": [
+        0.0806,
+        0.2594,
+        0.5153,
+        0.0336
+      ],
+      "style": {
+        "fill_name": "black",
+        "fill": "#060f16",
+        "stroke_name": "white",
+        "stroke": "#dbdfe6",
+        "stroke_ratio": 0.069,
+        "weight": 0.168
+      },
+      "style_zh": "black text, white outline, line height 3.0% (about 59px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_011",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 5.5,
+      "t1": 6.1,
+      "text": "eighty-eight more pile",
+      "lines": [
+        "eighty-eight more pile"
+      ],
+      "bbox": [
+        0.1125,
+        0.7578,
+        0.675,
+        0.0445
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.111
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.3% (about 83px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_012",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 6.5,
+      "t1": 7.4,
+      "text": "up behind it",
+      "lines": [
+        "up behind it"
+      ],
+      "bbox": [
+        0.2472,
+        0.7555,
+        0.4153,
+        0.0484
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.139
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.8% (about 92px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_013",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 7.5,
+      "t1": 8.1,
+      "text": "in ten seconds.",
+      "lines": [
+        "in ten seconds."
+      ],
+      "bbox": [
+        0.2056,
+        0.7578,
+        0.4999,
+        0.0422
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.125,
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.1% (about 79px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_014",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 8.5,
+      "t1": 9.7,
+      "text": "It's ahydrocutter,",
+      "lines": [
+        "It's ahydrocutter,"
+      ],
+      "bbox": [
+        0.1569,
+        0.7539,
+        0.6097,
+        0.0531
+      ],
+      "style": {
+        "fill_name": "yellow",
+        "fill": "#81868a",
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.11
+      },
+      "style_zh": "yellow text, keywords highlighted in white, line height 5.2% (about 100px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_015",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 9.9,
+      "t1": 11.0,
+      "text": "and it's how factories",
+      "lines": [
+        "and it's how factories"
+      ],
+      "bbox": [
+        0.1347,
+        0.7586,
+        0.6458,
+        0.0398
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.12,
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.0% (about 76px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_016",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 11.0,
+      "t1": 12.0,
+      "text": "turn potatoes into",
+      "lines": [
+        "turn potatoes into"
+      ],
+      "bbox": [
+        0.1472,
+        0.7555,
+        0.6111,
+        0.0477
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.127
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.7% (about 90px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_017",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 12.0,
+      "t1": 12.9,
+      "text": "fries.",
+      "lines": [
+        "fries."
+      ],
+      "bbox": [
+        0.3472,
+        0.7516,
+        0.2125,
+        0.0562
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "weight": 0.106
+      },
+      "style_zh": "white text, black outline, line height 5.5% (about 105px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_018",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 12.9,
+      "t1": 14.0,
+      "text": "It starts in a tank",
+      "lines": [
+        "It starts in a tank"
+      ],
+      "bbox": [
+        0.1653,
+        0.7578,
+        0.575,
+        0.0422
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.141
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.1% (about 79px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_019",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 14.0,
+      "t1": 14.9,
+      "text": "ofwater.",
+      "lines": [
+        "ofwater."
+      ],
+      "bbox": [
+        0.2986,
+        0.7547,
+        0.3167,
+        0.0492
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.121
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.8% (about 92px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_020",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 14.9,
+      "t1": 16.0,
+      "text": "A pump pushes water",
+      "lines": [
+        "A pump pushes water"
+      ],
+      "bbox": [
+        0.0903,
+        0.7555,
+        0.7305,
+        0.0531
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.108
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.0% (about 97px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_021",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 16.0,
+      "t1": 16.9,
+      "text": "andpotatoesinto",
+      "lines": [
+        "andpotatoesinto"
+      ],
+      "bbox": [
+        0.1583,
+        0.7555,
+        0.5958,
+        0.0477
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.127
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.6% (about 88px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_022",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 17.0,
+      "t1": 17.1,
+      "text": "apipe.",
+      "lines": [
+        "apipe."
+      ],
+      "bbox": [
+        0.3278,
+        0.7523,
+        0.2569,
+        0.0578
+      ],
+      "style": {
+        "fill_name": "yellow",
+        "fill": "#f2b222",
+        "stroke_name": "black",
+        "stroke": "#12181e",
+        "stroke_ratio": 0.023,
+        "multicolor": true,
+        "highlight_name": "black",
+        "weight": 0.103
+      },
+      "style_zh": "yellow text, black outline, keywords highlighted in black, line height 5.8% (about 111px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": {
+        "line": "text_023",
+        "text": "Then the pipe narrows.",
+        "rel": "before",
+        "dt": 0.5,
+        "word": "pipe"
+      },
+      "persistent": null
+    },
+    {
+      "id": "text_023",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 17.5,
+      "t1": 19.3,
+      "text": "Then the pipe narrows.",
+      "lines": [
+        "Then the pipe narrows."
+      ],
+      "bbox": [
+        0.1097,
+        0.757,
+        0.6972,
+        0.0461
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.108,
+        "highlight_timing": "spoken"
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.6% (about 88px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_024",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 19.5,
+      "t1": 20.3,
+      "text": "The water has to squeeze",
+      "lines": [
+        "The water has to squeeze"
+      ],
+      "bbox": [
+        0.1056,
+        0.7594,
+        0.7097,
+        0.0406
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.114
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.0% (about 76px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_025",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 20.0,
+      "t1": 20.1,
+      "text": "0",
+      "lines": [
+        "0"
+      ],
+      "bbox": [
+        0.4208,
+        0.4977,
+        0.0153,
+        0.007
+      ],
+      "style": {
+        "fill_name": "grey",
+        "fill": "#434343"
+      },
+      "style_zh": "grey text, line height 0.7% (about 13px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_026",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 20.5,
+      "t1": 21.1,
+      "text": "through,so it speeds",
+      "lines": [
+        "through,so it speeds"
+      ],
+      "bbox": [
+        0.1139,
+        0.7562,
+        0.6722,
+        0.0469
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.106
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.6% (about 88px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_027",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 21.5,
+      "t1": 22.4,
+      "text": "up, and carries",
+      "lines": [
+        "up, and carries"
+      ],
+      "bbox": [
+        0.2,
+        0.7531,
+        0.5125,
+        0.0547
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.108
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.3% (about 103px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_028",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 22.5,
+      "t1": 23.1,
+      "text": "8",
+      "lines": [
+        "8"
+      ],
+      "bbox": [
+        0.0472,
+        0.4227,
+        0.1459,
+        0.021
+      ],
+      "style": {
+        "fill_name": "black",
+        "fill": "#212322",
+        "stroke_name": "grey",
+        "stroke": "#696b6b",
+        "stroke_ratio": 0.049,
+        "weight": 0.13
+      },
+      "style_zh": "black text, grey outline, line height 1.6% (about 30px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": true,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_029",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 22.5,
+      "t1": 23.1,
+      "text": "the potato with it.",
+      "lines": [
+        "the potato with it."
+      ],
+      "bbox": [
+        0.1444,
+        0.7539,
+        0.6167,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.118
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.9% (about 94px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "slide_out",
+        "kind_zh": "slide out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_030",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 23.5,
+      "t1": 25.0,
+      "text": "The narrowing also lines",
+      "lines": [
+        "The narrowing also lines"
+      ],
+      "bbox": [
+        0.1097,
+        0.7562,
+        0.6861,
+        0.0446
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.102
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.4% (about 84px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_031",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 25.0,
+      "t1": 26.0,
+      "text": "each potato up,",
+      "lines": [
+        "each potato up,"
+      ],
+      "bbox": [
+        0.1917,
+        0.7547,
+        0.5249,
+        0.0531
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.11
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.3% (about 101px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_032",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 26.0,
+      "t1": 27.6,
+      "text": "nose first, dead centre.",
+      "lines": [
+        "nose first, dead centre."
+      ],
+      "bbox": [
+        0.1375,
+        0.7602,
+        0.6334,
+        0.0375
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.12,
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 3.7% (about 71px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_033",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 28.0,
+      "t1": 28.9,
+      "text": "Waitingat the end",
+      "lines": [
+        "Waitingat the end"
+      ],
+      "bbox": [
+        0.1278,
+        0.7523,
+        0.6458,
+        0.0547
+      ],
+      "style": {
+        "fill_name": "yellow",
+        "fill": "#f0b120",
+        "stroke_name": "black",
+        "stroke": "#12171e",
+        "stroke_ratio": 0.03,
+        "box": true,
+        "box_name": "blue",
+        "box_color": "#394860",
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.115
+      },
+      "style_zh": "yellow text, black outline, blue box, keywords highlighted in white, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "pop",
+        "kind_zh": "scale pop"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_034",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 28.9,
+      "t1": 29.5,
+      "text": "is a grid",
+      "lines": [
+        "is a grid"
+      ],
+      "bbox": [
+        0.3069,
+        0.7523,
+        0.2917,
+        0.0539
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f8fcff",
+        "stroke_name": "black",
+        "stroke": "#10161a",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.107
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.4% (about 103px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_035",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 29.5,
+      "t1": 31.3,
+      "text": "of thin steel blades.",
+      "lines": [
+        "of thin steel blades."
+      ],
+      "bbox": [
+        0.1444,
+        0.7562,
+        0.625,
+        0.0438
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.137,
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 3.8% (about 72px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_036",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 31.5,
+      "t1": 42.4,
+      "text": "FrameFoundry",
+      "lines": [
+        "FrameFoundry"
+      ],
+      "bbox": [
+        0.0444,
+        0.0461,
+        0.25,
+        0.032
+      ],
+      "style": {
+        "fill_name": "grey",
+        "fill": "#a5b1c0",
+        "weight": 0.103
+      },
+      "style_zh": "grey text, line height 2.8% (about 54px)",
+      "anim_in": {
+        "kind": "pop",
+        "kind_zh": "scale pop"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": true,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": {
+        "cuts": 4
+      }
+    },
+    {
+      "id": "text_037",
+      "kind": "huazi",
+      "kind_zh": "styled text",
+      "t0": 31.3,
+      "t1": 31.7,
+      "text": "三",
+      "lines": [
+        "三"
+      ],
+      "bbox": [
+        0.4222,
+        0.5117,
+        0.2167,
+        0.132
+      ],
+      "style": {
+        "fill_name": "brown",
+        "fill": "#372416",
+        "box": true,
+        "box_name": "orange",
+        "box_color": "#a7734d",
+        "multicolor": true,
+        "highlight_name": "orange",
+        "weight": 0.147
+      },
+      "style_zh": "brown text, orange box, keywords highlighted in orange, line height 13.2% (about 253px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "fade_out",
+        "kind_zh": "fade out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": {
+        "line": "text_038",
+        "text": "The first row",
+        "rel": "during",
+        "dt": 0.0,
+        "word": null
+      },
+      "persistent": null
+    },
+    {
+      "id": "text_038",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 31.3,
+      "t1": 32.0,
+      "text": "The first row",
+      "lines": [
+        "The first row"
+      ],
+      "bbox": [
+        0.2375,
+        0.757,
+        0.4417,
+        0.0453
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.132
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.5% (about 87px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_039",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 32.0,
+      "t1": 33.3,
+      "text": "slices the potato.",
+      "lines": [
+        "slices the potato."
+      ],
+      "bbox": [
+        0.1639,
+        0.7547,
+        0.582,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.119
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.0% (about 96px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_040",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 33.3,
+      "t1": 34.5,
+      "text": "The crossing row cuts",
+      "lines": [
+        "The crossing row cuts"
+      ],
+      "bbox": [
+        0.1097,
+        0.7562,
+        0.6945,
+        0.0461
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.111
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.6% (about 89px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_041",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 34.5,
+      "t1": 35.6,
+      "text": "every slice into sticks.",
+      "lines": [
+        "every slice into sticks."
+      ],
+      "bbox": [
+        0.15,
+        0.7586,
+        0.6084,
+        0.0406
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.11
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.1% (about 78px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "pop_out",
+        "kind_zh": "shrink out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_042",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 36.0,
+      "t1": 37.0,
+      "text": "Fasterthan you can",
+      "lines": [
+        "Fasterthan you can"
+      ],
+      "bbox": [
+        0.1167,
+        0.7539,
+        0.6653,
+        0.0539
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.111
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.2% (about 100px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_043",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 37.0,
+      "t1": 37.8,
+      "text": "blink, the whole",
+      "lines": [
+        "blink, the whole"
+      ],
+      "bbox": [
+        0.175,
+        0.7539,
+        0.5528,
+        0.0508
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.118
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.9% (about 94px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_044",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 38.0,
+      "t1": 38.6,
+      "text": "potato is through.",
+      "lines": [
+        "potato is through."
+      ],
+      "bbox": [
+        0.1472,
+        0.7562,
+        0.6139,
+        0.0492
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.122
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.9% (about 94px)",
+      "anim_in": {
+        "kind": "slide",
+        "kind_zh": "slide in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_045",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 39.0,
+      "t1": 40.0,
+      "text": "Pastthe knives,",
+      "lines": [
+        "Pastthe knives,"
+      ],
+      "bbox": [
+        0.1833,
+        0.7516,
+        0.5431,
+        0.0547
+      ],
+      "style": {
+        "fill_name": "yellow",
+        "fill": "#f2b21d",
+        "stroke_name": "black",
+        "stroke": "#0f1319",
+        "stroke_ratio": 0.043,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.112
+      },
+      "style_zh": "yellow text, black outline, keywords highlighted in white, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_046",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 40.0,
+      "t1": 41.3,
+      "text": "the pipe widens,",
+      "lines": [
+        "the pipe widens,"
+      ],
+      "bbox": [
+        0.175,
+        0.7539,
+        0.5625,
+        0.0531
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.11
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 5.2% (about 100px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_047",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 41.3,
+      "t1": 42.4,
+      "text": "everything slows down,",
+      "lines": [
+        "everything slows down,"
+      ],
+      "bbox": [
+        0.0986,
+        0.7578,
+        0.7125,
+        0.0438
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.123
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.2% (about 80px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_049",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 42.5,
+      "t1": 42.6,
+      "text": "ndry",
+      "lines": [
+        "ndry"
+      ],
+      "bbox": [
+        0.2125,
+        0.0516,
+        0.0764,
+        0.0234
+      ],
+      "style": {
+        "fill_name": "black",
+        "fill": "#212321",
+        "stroke_name": "grey",
+        "stroke": "#514e4a",
+        "stroke_ratio": 0.094,
+        "weight": 0.183
+      },
+      "style_zh": "black text, grey outline, line height 2.3% (about 45px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_048",
+      "kind": "label",
+      "kind_zh": "text label",
+      "t0": 42.5,
+      "t1": 51.6,
+      "text": "FrameFoundry",
+      "lines": [
+        "FrameFoundry"
+      ],
+      "bbox": [
+        0.0444,
+        0.0445,
+        0.2556,
+        0.0359
+      ],
+      "style": {
+        "fill_name": "grey",
+        "fill": "#555452",
+        "weight": 0.069
+      },
+      "style_zh": "grey text, line height 2.8% (about 54px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": null,
+      "mid_motion": true,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": {
+        "cuts": 3
+      }
+    },
+    {
+      "id": "text_050",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 42.4,
+      "t1": 43.3,
+      "text": "and the fries land",
+      "lines": [
+        "and the fries land"
+      ],
+      "bbox": [
+        0.1597,
+        0.7555,
+        0.5903,
+        0.0445
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.137
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.3% (about 83px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_051",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 43.3,
+      "t1": 44.5,
+      "text": "on a shaking screen",
+      "lines": [
+        "on a shaking screen"
+      ],
+      "bbox": [
+        0.125,
+        0.7562,
+        0.6611,
+        0.0492
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.115
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.7% (about 91px)",
+      "anim_in": null,
+      "anim_out": null,
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_052",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 44.5,
+      "t1": 45.4,
+      "text": "while the water runs",
+      "lines": [
+        "while the water runs"
+      ],
+      "bbox": [
+        0.1125,
+        0.7562,
+        0.6903,
+        0.0445
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.132
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.4% (about 84px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_053",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 45.4,
+      "t1": 46.5,
+      "text": "back to the tank.",
+      "lines": [
+        "back to the tank."
+      ],
+      "bbox": [
+        0.1708,
+        0.7555,
+        0.5667,
+        0.0445
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.136
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.3% (about 83px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_054",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 46.5,
+      "t1": 48.4,
+      "text": "The blades never move.",
+      "lines": [
+        "The blades never move."
+      ],
+      "bbox": [
+        0.1014,
+        0.7578,
+        0.7125,
+        0.0438
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.103
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.3% (about 83px)",
+      "anim_in": {
+        "kind": "cut",
+        "kind_zh": "hard in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_055",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 48.5,
+      "t1": 49.1,
+      "text": "Fastenough,a potato",
+      "lines": [
+        "Fastenough,a potato"
+      ],
+      "bbox": [
+        0.1111,
+        0.7555,
+        0.6847,
+        0.0484
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "yellow",
+        "weight": 0.11
+      },
+      "style_zh": "white text, black outline, keywords highlighted in yellow, line height 4.7% (about 90px)",
+      "anim_in": {
+        "kind": "fade",
+        "kind_zh": "fade in"
+      },
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    },
+    {
+      "id": "text_056",
+      "kind": "subtitle",
+      "kind_zh": "subtitle",
+      "t0": 49.5,
+      "t1": 51.2,
+      "text": "cuts itself.",
+      "lines": [
+        "cuts itself."
+      ],
+      "bbox": [
+        0.2708,
+        0.7562,
+        0.364,
+        0.0446
+      ],
+      "style": {
+        "fill_name": "white",
+        "fill": "#f6fbfe",
+        "stroke_name": "black",
+        "stroke": "#0b0f16",
+        "stroke_ratio": 0.042,
+        "multicolor": true,
+        "highlight_name": "white",
+        "weight": 0.134
+      },
+      "style_zh": "white text, black outline, keywords highlighted in white, line height 4.3% (about 83px)",
+      "anim_in": null,
+      "anim_out": {
+        "kind": "cut_out",
+        "kind_zh": "hard out"
+      },
+      "mid_motion": null,
+      "follows": null,
+      "part_of_picture": false,
+      "anchor": null,
+      "persistent": null
+    }
+  ],
+  "stickers": [
+    {
+      "kind": "animated_sticker",
+      "kind_zh": "animated sticker / GIF",
+      "t0": 8.8,
+      "t1": 12.8,
+      "bbox": [
+        0.1,
+        0.743,
+        0.1,
+        0.114
+      ],
+      "animated": true,
+      "loop_period_s": null,
+      "looping": false,
+      "activity": 15.0,
+      "appears_mid_shot": false,
+      "disappears_mid_shot": false,
+      "crosses_cut": true,
+      "confidence": "medium",
+      "id": "sticker_01",
+      "image": "packaging/sticker_01.jpg",
+      "anchor": {
+        "line": "text_013",
+        "text": "in ten seconds.",
+        "rel": "after",
+        "dt": 0.7,
+        "word": null
+      },
+      "persistent": {
+        "cuts": 1
+      }
+    },
+    {
+      "kind": "animated_sticker",
+      "kind_zh": "animated sticker / GIF",
+      "t0": 39.3,
+      "t1": 44.4,
+      "bbox": [
+        0.2,
+        0.629,
+        0.15,
+        0.057
+      ],
+      "animated": true,
+      "loop_period_s": null,
+      "looping": false,
+      "activity": 6.6,
+      "appears_mid_shot": false,
+      "disappears_mid_shot": false,
+      "crosses_cut": true,
+      "confidence": "medium",
+      "id": "sticker_02",
+      "image": "packaging/sticker_02.jpg",
+      "anchor": {
+        "line": "text_044",
+        "text": "potato is through.",
+        "rel": "after",
+        "dt": 0.7,
+        "word": null
+      },
+      "persistent": {
+        "cuts": 1
+      }
+    }
+  ],
+  "sfx": [
+    {
+      "t": 12.55,
+      "type": "other",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 17.28,
+      "type": "whoosh",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 38.73,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 42.27,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"and the fries la\" appears",
+        "dt": 0.13,
+        "ref": "text_050"
+      }
+    },
+    {
+      "t": 42.65,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "label_in",
+        "what": "text label \"ndry\" appears",
+        "dt": -0.15,
+        "ref": "text_049"
+      }
+    },
+    {
+      "t": 43.22,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"on a shaking scr\" appears",
+        "dt": 0.08,
+        "ref": "text_051"
+      }
+    },
+    {
+      "t": 43.64,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 44.19,
+      "type": "click",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": null
+    },
+    {
+      "t": 44.68,
+      "type": "pop",
+      "description": null,
+      "source": "effects_stem",
+      "confidence": "medium",
+      "on": {
+        "type": "subtitle_in",
+        "what": "subtitle \"while the water \" appears",
+        "dt": -0.18,
+        "ref": "text_052"
+      }
+    }
+  ]
+}
